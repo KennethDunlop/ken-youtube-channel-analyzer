@@ -1,5 +1,5 @@
 {
-  "version": "1.10",
+  "version": "1.11",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 609,
     "videoCount": 878,
-    "channelViews": 127988,
+    "channelViews": 128015,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-09-21T07:00:46.427Z",
+    "lastUpdated": "2026-09-21T19:00:49.325Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -43,7 +43,7 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 538,
+      "views": 530,
       "likes": 26,
       "comments": 6,
       "durationSeconds": 435
@@ -63,7 +63,7 @@
       "title": "The Knights Templar in Deus Ex Explained",
       "publishedAt": "2026-03-29T17:32:15Z",
       "thumbnail": "thumbs/pVz2AR44xKQ.jpg",
-      "views": 268,
+      "views": 269,
       "likes": 20,
       "comments": 10,
       "durationSeconds": 355
@@ -143,7 +143,7 @@
       "title": "The 6th demo of Super Space Galaxy is here!",
       "publishedAt": "2025-09-28T15:55:06Z",
       "thumbnail": "thumbs/_t4MAe8cHz8.jpg",
-      "views": 911,
+      "views": 912,
       "likes": 24,
       "comments": 7,
       "durationSeconds": 59
@@ -163,7 +163,7 @@
       "title": "Deus Ex is still the best game ever made",
       "publishedAt": "2025-08-20T19:54:17Z",
       "thumbnail": "thumbs/sSDgmkQy6Ok.jpg",
-      "views": 336,
+      "views": 335,
       "likes": 27,
       "comments": 7,
       "durationSeconds": 1225
@@ -223,7 +223,7 @@
       "title": "How I fixed the weird diagonal stripes on the planet maps",
       "publishedAt": "2025-03-19T13:59:03Z",
       "thumbnail": "thumbs/xJ3K4W2p8YM.jpg",
-      "views": 1498,
+      "views": 1499,
       "likes": 27,
       "comments": 1,
       "durationSeconds": 20
@@ -244,7 +244,7 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 538,
+    "views": 530,
     "likes": 26,
     "comments": 6,
     "durationSeconds": 435
@@ -265,7 +265,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 5882,
+      "views": 5889,
       "likes": 271,
       "comments": 28,
       "durationSeconds": 454
@@ -345,7 +345,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1868,
+      "views": 1870,
       "likes": 81,
       "comments": 7,
       "durationSeconds": 1079
@@ -385,7 +385,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1525,
+      "views": 1529,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
@@ -395,7 +395,7 @@
       "title": "How I fixed the weird diagonal stripes on the planet maps",
       "publishedAt": "2025-03-19T13:59:03Z",
       "thumbnail": "thumbs/xJ3K4W2p8YM.jpg",
-      "views": 1498,
+      "views": 1499,
       "likes": 27,
       "comments": 1,
       "durationSeconds": 20
