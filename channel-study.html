@@ -207,7 +207,10 @@
 
   @media (max-width:480px){
     .lookup-row{flex-direction:column;}
-    .lookup-row input[type="text"], .lookup-row button{width:100%;}
+    /* flex-basis applies to height once the row switches to column, so the
+       320px meant as a preferred width turns into a preferred height --
+       flex:none stops that, width:100% still sizes it correctly. */
+    .lookup-row input[type="text"], .lookup-row button{width:100%;flex:none;}
   }
 </style>
 </head>
