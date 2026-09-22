@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Channel Study</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Karla:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+  :root{
+    --paper:#12151C;
+    --paper-raised:#1B2029;
+    --paper-line:#2A2F3A;
+    --ink:#E8ECF2;
+    --ink-dim:#8891A0;
+    --red:#FF6B6B;
+    --blue:#4FD1C5;
+    --blue-soft:#1B3634;
+    --brass:#F5B942;
+    --focus:#4FD1C5;
+    --shadow: 0 1px 0 rgba(0,0,0,.4);
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Karla',system-ui,sans-serif;
+    padding:24px 20px 56px;
+    max-width:1180px;
+    margin:0 auto;
+  }
+  a{color:inherit;}
+  ::selection{background:var(--blue-soft);}
+
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--red);margin:0 0 6px;font-weight:600;
+  }
+  h1{
+    font-family:'Anton',sans-serif;font-weight:400;
+    font-size:clamp(28px,5vw,38px);letter-spacing:.01em;margin:0 0 6px;line-height:1;text-wrap:balance;
+  }
+  .lede{margin:0 0 22px;font-size:13.5px;color:var(--ink-dim);max-width:62ch;line-height:1.5;}
+
+  /* ---- lookup form ---- */
+  .lookup-row{
+    display:flex;gap:10px;flex-wrap:wrap;align-items:flex-start;margin-bottom:10px;
+  }
+  .lookup-row input[type="text"]{
+    flex:1 1 320px;min-width:0;
+    background:var(--paper-raised);border:1px solid var(--paper-line);border-radius:8px;
+    color:var(--ink);font-family:'Karla',sans-serif;font-size:14.5px;
+    padding:11px 14px;
+  }
+  .lookup-row input[type="text"]::placeholder{color:var(--ink-dim);}
+  .lookup-row input[type="text"]:focus-visible{outline:2px solid var(--focus);outline-offset:1px;}
+  button{
+    font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:600;letter-spacing:.02em;
+    background:var(--blue);color:#0A1210;border:none;border-radius:8px;
+    padding:11px 18px;cursor:pointer;
+  }
+  button:hover{background:#63DBCF;}
+  button:focus-visible{outline:2px solid var(--focus);outline-offset:2px;}
+  button.ghost{
+    background:transparent;color:var(--ink-dim);border:1px solid var(--paper-line);
+  }
+  button.ghost:hover{color:var(--ink);border-color:var(--ink-dim);}
+  button:disabled{opacity:.5;cursor:default;}
+
+  .key-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:20px;}
+  .key-row .status{font-size:11.5px;color:var(--ink-dim);font-family:'IBM Plex Mono',monospace;}
+  .key-panel{
+    background:var(--paper-raised);border:1px solid var(--paper-line);border-radius:10px;
+    padding:14px 16px;margin-bottom:20px;display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end;
+  }
+  .key-panel[hidden]{display:none;}
+  .key-panel label{
+    display:block;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--ink-dim);margin-bottom:6px;
+  }
+  .key-panel input[type="password"]{
+    background:var(--paper);border:1px solid var(--paper-line);border-radius:7px;color:var(--ink);
+    padding:9px 12px;font-family:'IBM Plex Mono',monospace;font-size:13px;min-width:280px;
+  }
+  .key-panel .note{flex:1 1 100%;font-size:11.5px;color:var(--ink-dim);margin:0;line-height:1.5;}
+
+  /* ---- history chips ---- */
+  .history-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px;}
+  .history-row[hidden]{display:none;}
+  .history-chip{
+    display:flex;align-items:center;gap:7px;
+    background:var(--paper-raised);border:1px solid var(--paper-line);border-radius:20px;
+    padding:5px 6px 5px 10px;
+  }
+  .history-chip button.chip-load{
+    background:none;border:none;padding:0;margin:0;color:var(--ink);font-family:'Karla',sans-serif;
+    font-size:12.5px;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:6px;
+  }
+  .history-chip button.chip-load:hover{color:var(--blue);}
+  .history-chip img{width:18px;height:18px;border-radius:50%;object-fit:cover;flex-shrink:0;background:var(--paper-line);}
+  .history-chip button.chip-remove{
+    background:none;border:none;padding:2px 4px;margin:0;color:var(--ink-dim);cursor:pointer;
+    font-family:'Karla',sans-serif;font-size:14px;line-height:1;border-radius:50%;
+  }
+  .history-chip button.chip-remove:hover{color:var(--red);background:var(--paper-line);}
+  .history-clear{
+    background:none;border:none;color:var(--ink-dim);font-family:'IBM Plex Mono',monospace;
+    font-size:11px;text-decoration:underline;cursor:pointer;padding:5px 2px;
+  }
+  .history-clear:hover{color:var(--red);}
+
+  .status-line{font-size:13px;color:var(--ink-dim);margin:4px 0 22px;min-height:18px;}
+  .status-line.error{color:var(--red);}
+
+  .rope{
+    height:5px;border-radius:3px;
+    background:linear-gradient(90deg,var(--red) 0 48%, var(--blue) 52% 100%);
+    opacity:.85;margin-bottom:28px;
+  }
+
+  /* ---- channel meta ---- */
+  #result{display:none;}
+  #result.visible{display:block;}
+  .channel-header{display:flex;align-items:center;gap:14px;margin-bottom:8px;flex-wrap:wrap;}
+  .avatar{width:56px;height:56px;border-radius:50%;border:2px solid var(--paper-line);object-fit:cover;flex-shrink:0;background:var(--paper-raised);}
+  .channel-header h2{font-family:'Anton',sans-serif;font-weight:400;font-size:clamp(22px,3.6vw,30px);margin:0;line-height:1;letter-spacing:.01em;}
+  .channel-sub{margin:5px 0 0;font-size:13px;color:var(--ink-dim);}
+  .channel-link{color:var(--blue);text-decoration:none;font-weight:600;}
+  .channel-link:hover{color:var(--red);}
+  .channel-banner{display:block;width:100%;max-height:160px;object-fit:cover;border-radius:10px;margin-top:16px;background:var(--paper-raised);}
+  .channel-banner[hidden]{display:none;}
+
+  .scan-note{font-size:12px;color:var(--ink-dim);margin:16px 0 0;}
+
+  /* ---- leaderboard ---- */
+  .record-section{margin-top:40px;}
+  .record-heading{
+    font-family:'Anton',sans-serif;font-weight:400;font-size:clamp(19px,3.2vw,24px);letter-spacing:.01em;
+    margin:0 0 4px;text-wrap:balance;
+  }
+  .record-sub{margin:0 0 16px;font-size:12.5px;color:var(--ink-dim);}
+
+  .leaderboard-grid{display:flex;flex-wrap:wrap;gap:12px;}
+  .lb-card{
+    display:flex;align-items:center;gap:10px;
+    background:var(--paper-raised);border:1px solid var(--paper-line);border-radius:10px;
+    padding:10px 12px;flex:1 1 210px;min-width:210px;max-width:280px;
+    text-decoration:none;color:inherit;
+  }
+  .lb-card:hover{border-color:var(--brass);}
+  .lb-thumb{width:34px;height:48px;border-radius:5px;object-fit:cover;flex-shrink:0;background:#000;}
+  .lb-body{display:flex;flex-direction:column;gap:2px;overflow:hidden;min-width:0;}
+  .lb-label{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.07em;color:var(--brass);font-weight:700;}
+  .lb-title{font-size:11.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .lb-value{font-family:'IBM Plex Mono',monospace;font-size:15px;font-weight:700;font-variant-numeric:tabular-nums;}
+  .lb-value small{font-size:10px;color:var(--ink-dim);font-weight:500;margin-left:3px;}
+
+  /* ---- rank-by control ---- */
+  .rank-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:14px;}
+  .rank-row label{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-dim);letter-spacing:.04em;text-transform:uppercase;}
+  .rank-row select{
+    background:var(--paper-raised);border:1px solid var(--paper-line);color:var(--ink);
+    font-family:'Karla',sans-serif;font-size:13.5px;padding:8px 12px;border-radius:7px;
+  }
+  .rank-row .count{font-size:12px;color:var(--ink-dim);margin-left:auto;}
+
+  /* ---- table ---- */
+  .table-scroll{overflow-x:auto;border:1px solid var(--paper-line);border-radius:10px;}
+  table.record-table{width:100%;border-collapse:collapse;font-size:13px;min-width:900px;}
+  .record-table thead th{
+    text-align:left;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--ink-dim);font-weight:600;padding:11px 14px;background:var(--paper-raised);
+    border-bottom:1px solid var(--paper-line);white-space:nowrap;
+  }
+  .record-table th[data-key]{cursor:pointer;user-select:none;position:relative;padding-right:22px;}
+  .record-table th[data-key]:hover{color:var(--ink);}
+  .record-table th[data-key].sort-asc::after,.record-table th[data-key].sort-desc::after{
+    position:absolute;right:8px;top:50%;transform:translateY(-50%);font-size:8px;color:var(--blue);
+  }
+  .record-table th[data-key].sort-asc::after{content:"\25B2";}
+  .record-table th[data-key].sort-desc::after{content:"\25BC";}
+  .record-table td{padding:9px 14px;border-bottom:1px solid var(--paper-line);vertical-align:middle;}
+  .record-table tbody tr:last-child td{border-bottom:none;}
+  .record-table tbody tr:hover td{background:var(--paper-raised);}
+  .col-title{max-width:340px;}
+  .col-title a{font-weight:600;text-decoration:none;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .col-title a:hover{color:var(--blue);}
+  .col-date{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ink-dim);white-space:nowrap;}
+  th.col-num,td.col-num{text-align:right;}
+  td.col-num{font-family:'IBM Plex Mono',monospace;font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--ink-dim);}
+  td.col-num.lpv{color:var(--blue);font-weight:600;}
+  td.col-num.engaged{color:var(--blue);}
+  td.col-num.discuss{color:var(--red);}
+  td.col-num.success{color:var(--brass);font-weight:700;}
+  td.col-analyze{white-space:nowrap;font-size:12px;}
+
+  .thumb-preview{
+    position:fixed;z-index:200;pointer-events:none;width:220px;aspect-ratio:16/9;border-radius:8px;overflow:hidden;
+    background:#000;border:1px solid var(--paper-line);box-shadow:0 10px 28px rgba(0,0,0,.4);
+  }
+  .thumb-preview[hidden]{display:none;}
+  .thumb-preview img{width:100%;height:100%;object-fit:cover;display:block;}
+
+  footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--paper-line);font-size:12px;color:var(--ink-dim);line-height:1.6;}
+
+  @media (max-width:480px){
+    .lookup-row{flex-direction:column;}
+    .lookup-row input[type="text"], .lookup-row button{width:100%;}
+  }
+</style>
+</head>
+<body>
+
+<p class="eyebrow">Ad-hoc &middot; any channel</p>
+<h1>Channel Study</h1>
+<p class="lede">Type a channel &mdash; a handle, a full URL, or a channel ID &mdash; and pull its whole upload history live from YouTube. No tracking, no history saved anywhere: just today's numbers, ranked however you like.</p>
+
+<div class="lookup-row">
+  <input type="text" id="channel-input" placeholder="@handle, youtube.com/@handle, or a channel ID" autocomplete="off" />
+  <button id="go-btn" type="button">Study channel</button>
+  <button id="key-toggle-btn" class="ghost" type="button">API key</button>
+</div>
+<div class="key-row">
+  <span class="status" id="key-status">No API key saved yet.</span>
+</div>
+<div class="key-panel" id="key-panel" hidden>
+  <div>
+    <label for="key-input">YouTube Data API v3 key</label>
+    <input type="password" id="key-input" autocomplete="off" placeholder="AIza..." />
+  </div>
+  <button id="key-save-btn" type="button">Save key</button>
+  <p class="note">Kept only in this browser's local storage &mdash; sent straight to Google with each request, never anywhere else. The same key from your other Analyzer sites works fine here; it isn't tied to any one channel.</p>
+</div>
+
+<div class="history-row" id="history-row" hidden></div>
+
+<p class="status-line" id="status-line"></p>
+<div class="rope"></div>
+
+<div id="result">
+  <div class="channel-header">
+    <img class="avatar" id="ch-avatar" alt="" />
+    <div>
+      <h2 id="ch-title"></h2>
+      <p class="channel-sub" id="ch-sub"></p>
+    </div>
+  </div>
+  <img class="channel-banner" id="ch-banner" alt="" hidden />
+  <p class="scan-note" id="scan-note"></p>
+
+  <section class="record-section">
+    <h3 class="record-heading">Champion's Belt</h3>
+    <p class="record-sub">The current leader in each category, across every upload fetched.</p>
+    <div class="leaderboard-grid" id="leaderboard-grid"></div>
+  </section>
+
+  <section class="record-section">
+    <h3 class="record-heading">Full Catalog</h3>
+    <p class="record-sub">Every upload fetched. Pick how to rank it, or click any column to sort by that instead.</p>
+    <div class="rank-row">
+      <label for="rank-select">Rank by</label>
+      <select id="rank-select">
+        <option value="successScore">Success Score</option>
+        <option value="views">Views</option>
+        <option value="viewsPerDay">Views per day</option>
+        <option value="engagementWilson">Engagement rate</option>
+        <option value="likes">Likes</option>
+        <option value="comments">Comments</option>
+        <option value="durationSeconds">Length</option>
+      </select>
+      <span class="count" id="row-count"></span>
+    </div>
+    <div class="table-scroll">
+      <table class="record-table" id="video-table">
+        <thead>
+          <tr>
+            <th data-key="title">Title</th>
+            <th data-key="publishedAt">Released</th>
+            <th class="col-num" data-key="durationSeconds">Length</th>
+            <th class="col-num" data-key="views">Views</th>
+            <th class="col-num" data-key="engagedViews" title="Estimate, not a YouTube metric: views &#215; Wilson-adjusted engagement rate">Engaged Views</th>
+            <th class="col-num" data-key="likes">Likes</th>
+            <th class="col-num" data-key="comments">Comments</th>
+            <th class="col-num" data-key="commentsWilson" title="Comments alone, Wilson-adjusted -- isolates real discussion from lower-effort likes">Discussion Rate</th>
+            <th class="col-num" data-key="lpv">Likes / View</th>
+            <th class="col-num" data-key="successScore" title="Blends age-adjusted view velocity with Wilson-adjusted engagement into one 0-100 score, ranked against every other upload fetched">Success Score</th>
+            <th title="Opens YouTube Studio's Analytics page -- only shows real data if you have permission on this channel">Analyze</th>
+          </tr>
+        </thead>
+        <tbody id="video-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="record-section">
+    <h3 class="record-heading">By Duration</h3>
+    <p class="record-sub">Does clip length itself predict performance?</p>
+    <div class="table-scroll">
+      <table class="record-table">
+        <thead><tr><th>Duration</th><th class="col-num">Videos</th><th class="col-num">Avg Views</th><th class="col-num">Avg Success Score</th></tr></thead>
+        <tbody id="duration-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="record-section">
+    <h3 class="record-heading">By Hashtag</h3>
+    <p class="record-sub">How each topic tag performs, averaged across every upload that used it.</p>
+    <div class="table-scroll">
+      <table class="record-table">
+        <thead><tr><th>Hashtag</th><th class="col-num">Videos</th><th class="col-num">Avg Views</th><th class="col-num">Avg Success Score</th></tr></thead>
+        <tbody id="hashtag-body"></tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+<div class="thumb-preview" id="thumb-preview" hidden><img id="thumb-preview-img" src="" alt="" /></div>
+
+<footer>
+  Engaged Views = views &#215; Wilson-adjusted engagement rate. Success Score (0&ndash;100) blends age-adjusted view velocity (views &divide; days live, floored at 3) with Wilson-adjusted engagement (likes+comments vs. views), ranked against every other video fetched for this channel &mdash; not an absolute scale, and not comparable across two different channel studies. Nothing here is saved: reload the page and it's gone until you look the channel up again.
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var KEY_STORAGE = "channelStudy.apiKey";
+  var apiKey = null;
+  try { apiKey = localStorage.getItem(KEY_STORAGE); } catch(e){}
+
+  var channelInput = document.getElementById("channel-input");
+  var goBtn = document.getElementById("go-btn");
+  var keyToggleBtn = document.getElementById("key-toggle-btn");
+  var keyPanel = document.getElementById("key-panel");
+  var keyInput = document.getElementById("key-input");
+  var keySaveBtn = document.getElementById("key-save-btn");
+  var keyStatus = document.getElementById("key-status");
+  var statusLine = document.getElementById("status-line");
+  var resultEl = document.getElementById("result");
+
+  function refreshKeyStatus(){
+    keyStatus.textContent = apiKey ? "API key saved in this browser." : "No API key saved yet -- click \"API key\" to add one.";
+  }
+  refreshKeyStatus();
+
+  keyToggleBtn.addEventListener("click", function(){
+    keyPanel.hidden = !keyPanel.hidden;
+    if(!keyPanel.hidden) keyInput.focus();
+  });
+  keySaveBtn.addEventListener("click", function(){
+    var v = keyInput.value.trim();
+    if(!v) return;
+    apiKey = v;
+    try { localStorage.setItem(KEY_STORAGE, v); } catch(e){}
+    keyInput.value = "";
+    keyPanel.hidden = true;
+    refreshKeyStatus();
+  });
+
+  // ---- history of previously-looked-up channels ----
+  var HISTORY_STORAGE = "channelStudy.history";
+  var HISTORY_MAX = 20;
+  var historyRow = document.getElementById("history-row");
+
+  function loadHistory(){
+    try{
+      var raw = localStorage.getItem(HISTORY_STORAGE);
+      return raw ? JSON.parse(raw) : [];
+    }catch(e){ return []; }
+  }
+  function saveHistory(list){
+    try{ localStorage.setItem(HISTORY_STORAGE, JSON.stringify(list)); }catch(e){}
+  }
+  function renderHistory(){
+    var list = loadHistory();
+    historyRow.innerHTML = "";
+    historyRow.hidden = list.length === 0;
+    list.forEach(function(entry){
+      var chip = document.createElement("div");
+      chip.className = "history-chip";
+      var loadBtn = document.createElement("button");
+      loadBtn.type = "button";
+      loadBtn.className = "chip-load";
+      loadBtn.title = "Look this channel up again";
+      var imgHtml = entry.avatar ? '<img src="'+entry.avatar+'" alt="" />' : "";
+      loadBtn.innerHTML = imgHtml + '<span>'+escapeHtml(entry.title || entry.input)+'</span>';
+      loadBtn.addEventListener("click", function(){
+        channelInput.value = entry.channelId || entry.input;
+        studyChannel();
+      });
+      var removeBtn = document.createElement("button");
+      removeBtn.type = "button";
+      removeBtn.className = "chip-remove";
+      removeBtn.title = "Remove from this list";
+      removeBtn.setAttribute("aria-label", "Remove "+(entry.title||entry.input)+" from history");
+      removeBtn.textContent = "×";
+      removeBtn.addEventListener("click", function(){
+        var remaining = loadHistory().filter(function(e){ return e.channelId !== entry.channelId; });
+        saveHistory(remaining);
+        renderHistory();
+      });
+      chip.appendChild(loadBtn);
+      chip.appendChild(removeBtn);
+      historyRow.appendChild(chip);
+    });
+    if(list.length){
+      var clearBtn = document.createElement("button");
+      clearBtn.type = "button";
+      clearBtn.className = "history-clear";
+      clearBtn.textContent = "Clear all";
+      clearBtn.addEventListener("click", function(){
+        saveHistory([]);
+        renderHistory();
+      });
+      historyRow.appendChild(clearBtn);
+    }
+  }
+  function addToHistory(entry){
+    var list = loadHistory().filter(function(e){ return e.channelId !== entry.channelId; });
+    list.unshift(entry);
+    if(list.length > HISTORY_MAX) list = list.slice(0, HISTORY_MAX);
+    saveHistory(list);
+    renderHistory();
+  }
+  renderHistory();
+
+  function setStatus(msg, isError){
+    statusLine.textContent = msg || "";
+    statusLine.classList.toggle("error", !!isError);
+  }
+
+  // ---- shared formatting/scoring helpers (same formulas as the tracker sites) ----
+  function formatCount(n){
+    if(n>=1000000) return (n/1000000).toFixed(1).replace(/\.0$/,"")+"M";
+    if(n>=1000) return (n/1000).toFixed(1).replace(/\.0$/,"")+"K";
+    return String(n);
+  }
+  function formatDuration(sec){
+    sec = Math.round(sec);
+    var h = Math.floor(sec/3600), m = Math.floor((sec%3600)/60), s = sec%60;
+    var mm = h>0 ? String(m).padStart(2,"0") : String(m);
+    var ss = String(s).padStart(2,"0");
+    return h>0 ? (h+":"+mm+":"+ss) : (mm+":"+ss);
+  }
+  function formatDate(iso){
+    var d = new Date(iso);
+    return d.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
+  }
+  function formatRate(r){ return (r<1 ? r.toFixed(2) : r.toFixed(1)) + "%"; }
+  function likesPerView(v){ return v.views>0 ? (v.likes/v.views*100) : 0; }
+  function escapeHtml(s){ var d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
+  function formatChannelAge(iso){
+    var start = new Date(iso), now = new Date();
+    var years = now.getFullYear() - start.getFullYear();
+    var months = now.getMonth() - start.getMonth();
+    if(now.getDate() < start.getDate()) months--;
+    if(months<0){ years--; months+=12; }
+    if(years<=0) return months+(months===1?" month":" months");
+    if(months===0) return years+(years===1?" year":" years");
+    return years+"y "+months+"m";
+  }
+
+  function wilsonLowerBound(successes, n){
+    if(n<=0) return 0;
+    var z = 1.96, phat = successes/n, z2 = z*z;
+    var denom = 1 + z2/n;
+    var center = phat + z2/(2*n);
+    var margin = z*Math.sqrt((phat*(1-phat) + z2/(4*n))/n);
+    return Math.max(0, (center-margin)/denom);
+  }
+  function daysSincePublish(iso){ return Math.max(3, (Date.now()-new Date(iso).getTime())/86400000); }
+  function viewsPerDay(v){ return v.views / daysSincePublish(v.publishedAt); }
+  function percentileRank(value, arr){
+    var less=0, equal=0;
+    arr.forEach(function(a){ if(a<value) less++; else if(a===value) equal++; });
+    return arr.length ? ((less + 0.5*equal)/arr.length*100) : 0;
+  }
+  function computeScores(videos){
+    var velArr = videos.map(function(v){ return viewsPerDay(v); });
+    var engArr = videos.map(function(v){ return wilsonLowerBound(v.likes+v.comments, v.views); });
+    return videos.map(function(v){
+      var eng = wilsonLowerBound(v.likes+v.comments, v.views);
+      var vel = viewsPerDay(v);
+      var copy = {};
+      for(var k in v){ copy[k]=v[k]; }
+      copy.engagementWilson = eng*100;
+      copy.commentsWilson = wilsonLowerBound(v.comments, v.views)*100;
+      copy.viewsPerDay = vel;
+      copy.engagedViews = Math.round(v.views * eng);
+      copy.successScore = 0.55*percentileRank(vel, velArr) + 0.45*percentileRank(eng, engArr);
+      return copy;
+    });
+  }
+
+  // ---- hover thumbnail preview, sized from the image's own dimensions ----
+  var thumbPreview = document.getElementById("thumb-preview");
+  var thumbPreviewImg = document.getElementById("thumb-preview-img");
+  var thumbBoxW = 220, thumbBoxH = 124;
+  function applyThumbSize(el, e){
+    var w = parseInt(el.dataset.thumbWidth, 10) || 220;
+    var ratio = thumbPreviewImg.naturalWidth && thumbPreviewImg.naturalHeight
+      ? (thumbPreviewImg.naturalWidth+"/"+thumbPreviewImg.naturalHeight) : "16/9";
+    var parts = ratio.split("/");
+    var h = w * (parseFloat(parts[1]) / parseFloat(parts[0]));
+    thumbBoxW = w; thumbBoxH = h;
+    thumbPreview.style.width = w+"px";
+    thumbPreview.style.aspectRatio = ratio;
+    positionThumb(e, w, h);
+  }
+  function positionThumb(e, w, h){
+    var pad = 16, x = e.clientX+pad, y = e.clientY+pad;
+    if(x+w>window.innerWidth) x = e.clientX-w-pad;
+    if(y+h>window.innerHeight) y = Math.max(pad, window.innerHeight-h-pad);
+    thumbPreview.style.left = x+"px"; thumbPreview.style.top = y+"px";
+  }
+  document.addEventListener("mouseover", function(e){
+    var el = e.target.closest ? e.target.closest("[data-thumb]") : null;
+    if(!el) return;
+    thumbPreviewImg.src = el.dataset.thumb;
+    thumbPreview.hidden = false;
+    applyThumbSize(el, e);
+    thumbPreviewImg.onload = function(){ applyThumbSize(el, e); };
+  });
+  document.addEventListener("mousemove", function(e){
+    if(thumbPreview.hidden) return;
+    positionThumb(e, thumbBoxW, thumbBoxH);
+  });
+  document.addEventListener("mouseout", function(e){
+    var el = e.target.closest ? e.target.closest("[data-thumb]") : null;
+    if(el) thumbPreview.hidden = true;
+  });
+
+  function rowHtml(v){
+    return '<td class="col-title"><a href="https://www.youtube.com/watch?v='+v.id+'" target="_blank" rel="noopener" title="'+escapeHtml(v.title)+'" data-thumb="'+v.thumbUrl+'">'+escapeHtml(v.title)+'</a></td>'+
+      '<td class="col-date">'+formatDate(v.publishedAt)+'</td>'+
+      '<td class="col-num">'+formatDuration(v.durationSeconds)+'</td>'+
+      '<td class="col-num">'+v.views.toLocaleString()+'</td>'+
+      '<td class="col-num engaged">'+v.engagedViews.toLocaleString()+'</td>'+
+      '<td class="col-num">'+v.likes.toLocaleString()+'</td>'+
+      '<td class="col-num">'+v.comments.toLocaleString()+'</td>'+
+      '<td class="col-num discuss">'+formatRate(v.commentsWilson)+'</td>'+
+      '<td class="col-num lpv">'+formatRate(likesPerView(v))+'</td>'+
+      '<td class="col-num success">'+Math.round(v.successScore)+'</td>'+
+      '<td class="col-analyze"><a class="channel-link" href="https://studio.youtube.com/video/'+v.id+'/analytics/tab-overview/period-default" target="_blank" rel="noopener">Analyze &#8599;</a></td>';
+  }
+
+  var MAX_ROWS = 200;
+  var currentScored = [];
+  var sort = {key:"successScore", dir:"desc"};
+  var tbody = document.getElementById("video-body");
+  var rowCount = document.getElementById("row-count");
+
+  function renderRows(){
+    var arr = currentScored.slice();
+    var key = sort.key, dir = sort.dir;
+    arr.sort(function(a,b){
+      var av, bv;
+      if(key === "lpv"){ av = likesPerView(a); bv = likesPerView(b); }
+      else if(key === "title"){ av = a.title.toLowerCase(); bv = b.title.toLowerCase(); }
+      else if(key === "publishedAt"){ av = new Date(a.publishedAt).getTime(); bv = new Date(b.publishedAt).getTime(); }
+      else { av = a[key]; bv = b[key]; }
+      if(av < bv) return dir === "asc" ? -1 : 1;
+      if(av > bv) return dir === "asc" ? 1 : -1;
+      return 0;
+    });
+    var shown = arr.slice(0, MAX_ROWS);
+    tbody.innerHTML = "";
+    shown.forEach(function(v){
+      var tr = document.createElement("tr");
+      tr.innerHTML = rowHtml(v);
+      tbody.appendChild(tr);
+    });
+    rowCount.textContent = "Showing " + shown.length + " of " + arr.length + " uploads";
+    document.querySelectorAll("#video-table th[data-key]").forEach(function(th){
+      th.classList.remove("sort-asc","sort-desc");
+      if(th.dataset.key === sort.key) th.classList.add(sort.dir==="asc"?"sort-asc":"sort-desc");
+    });
+  }
+  document.querySelectorAll("#video-table th[data-key]").forEach(function(th){
+    th.addEventListener("click", function(){
+      var key = th.dataset.key;
+      if(sort.key === key){ sort.dir = sort.dir==="asc"?"desc":"asc"; }
+      else { sort.key = key; sort.dir = key==="title"?"asc":"desc"; }
+      var rankSelect = document.getElementById("rank-select");
+      if(rankSelect.querySelector('option[value="'+key+'"]')) rankSelect.value = key;
+      renderRows();
+    });
+  });
+  document.getElementById("rank-select").addEventListener("change", function(){
+    sort.key = this.value; sort.dir = "desc";
+    renderRows();
+  });
+
+  var LB_CATS = [
+    {key:"views", label:"Most Views", fmt:function(v){ return formatCount(v.views); }},
+    {key:"likes", label:"Most Likes", fmt:function(v){ return formatCount(v.likes); }},
+    {key:"comments", label:"Most Comments", fmt:function(v){ return formatCount(v.comments); }},
+    {key:"viewsPerDay", label:"Fastest Growing", fmt:function(v){ return v.viewsPerDay.toFixed(1)+'<small> views/day</small>'; }},
+    {key:"engagementWilson", label:"Highest Engagement", fmt:function(v){ return formatRate(v.engagementWilson); }},
+    {key:"successScore", label:"Top Success Score", fmt:function(v){ return Math.round(v.successScore)+'<small> /100</small>'; }}
+  ];
+  function renderLeaderboard(scored){
+    var grid = document.getElementById("leaderboard-grid");
+    grid.innerHTML = "";
+    LB_CATS.forEach(function(cat){
+      var winner = scored.reduce(function(best,v){ return (best===null||v[cat.key]>best[cat.key])?v:best; }, null);
+      if(!winner) return;
+      var card = document.createElement("a");
+      card.href = "https://www.youtube.com/watch?v="+winner.id;
+      card.target = "_blank"; card.rel = "noopener"; card.className = "lb-card";
+      card.innerHTML = '<img class="lb-thumb" src="'+winner.thumbUrl+'" alt="" loading="lazy" />'+
+        '<span class="lb-body"><span class="lb-label">'+cat.label+'</span>'+
+        '<span class="lb-title">'+escapeHtml(winner.title)+'</span>'+
+        '<span class="lb-value">'+cat.fmt(winner)+'</span></span>';
+      grid.appendChild(card);
+    });
+  }
+
+  function extractHashtags(title){
+    var matches = title.match(/#[A-Za-z0-9_]+/g) || [];
+    var seen = {}, out = [];
+    matches.forEach(function(h){ var t=h.toLowerCase(); if(!seen[t]){ seen[t]=true; out.push(t); } });
+    return out;
+  }
+  function renderHashtags(scored){
+    var body = document.getElementById("hashtag-body");
+    var map = {};
+    scored.forEach(function(v){
+      extractHashtags(v.title).forEach(function(tag){
+        if(!map[tag]) map[tag] = {tag:tag,count:0,totalViews:0,totalScore:0};
+        map[tag].count++; map[tag].totalViews += v.views; map[tag].totalScore += v.successScore;
+      });
+    });
+    var stats = Object.keys(map).map(function(k){ return map[k]; });
+    stats.sort(function(a,b){ return (b.totalScore/b.count)-(a.totalScore/a.count); });
+    body.innerHTML = "";
+    if(!stats.length){ body.innerHTML = '<tr><td class="col-title" colspan="4" style="color:var(--ink-dim)">No hashtags found in these titles.</td></tr>'; return; }
+    stats.slice(0,30).forEach(function(s){
+      var tr = document.createElement("tr");
+      tr.innerHTML = '<td class="col-title"><b>'+escapeHtml(s.tag)+'</b></td>'+
+        '<td class="col-num">'+s.count+'</td>'+
+        '<td class="col-num">'+formatCount(Math.round(s.totalViews/s.count))+'</td>'+
+        '<td class="col-num success">'+Math.round(s.totalScore/s.count)+'</td>';
+      body.appendChild(tr);
+    });
+  }
+
+  var EN_DASH = String.fromCharCode(8211);
+  var DURATION_BUCKETS = ["Under 1m", "1"+EN_DASH+"5m", "5"+EN_DASH+"20m", "20m+"];
+  function durationBucket(sec){
+    if(sec<60) return DURATION_BUCKETS[0];
+    if(sec<300) return DURATION_BUCKETS[1];
+    if(sec<1200) return DURATION_BUCKETS[2];
+    return DURATION_BUCKETS[3];
+  }
+  function renderDuration(scored){
+    var body = document.getElementById("duration-body");
+    var map = {};
+    scored.forEach(function(v){
+      var b = durationBucket(v.durationSeconds);
+      if(!map[b]) map[b] = {bucket:b,count:0,totalViews:0,totalScore:0};
+      map[b].count++; map[b].totalViews += v.views; map[b].totalScore += v.successScore;
+    });
+    body.innerHTML = "";
+    DURATION_BUCKETS.forEach(function(b){
+      var s = map[b];
+      if(!s) return;
+      var tr = document.createElement("tr");
+      tr.innerHTML = '<td class="col-title"><b>'+escapeHtml(s.bucket)+'</b></td>'+
+        '<td class="col-num">'+s.count+'</td>'+
+        '<td class="col-num">'+formatCount(Math.round(s.totalViews/s.count))+'</td>'+
+        '<td class="col-num success">'+Math.round(s.totalScore/s.count)+'</td>';
+      body.appendChild(tr);
+    });
+  }
+
+  // ---- YouTube fetch ----
+  function ytFetch(path, params){
+    var url = new URL("https://www.googleapis.com/youtube/v3/"+path);
+    Object.keys(params).forEach(function(k){ if(params[k]!=null) url.searchParams.set(k, params[k]); });
+    url.searchParams.set("key", apiKey);
+    return fetch(url.toString()).then(function(r){
+      if(!r.ok) return r.json().then(function(j){ throw new Error((j.error && j.error.message) || ("YouTube API error "+r.status)); });
+      return r.json();
+    });
+  }
+
+  function parseIsoDuration(iso){
+    if(!iso) return 0;
+    var m = iso.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+    if(!m) return 0;
+    return (parseInt(m[1]||"0",10)*3600) + (parseInt(m[2]||"0",10)*60) + parseInt(m[3]||"0",10);
+  }
+
+  async function resolveChannelId(input){
+    input = input.trim();
+    var m = input.match(/youtube\.com\/(channel\/(UC[\w-]{22})|@([\w.-]+)|c\/([\w.-]+)|user\/([\w.-]+))/i);
+    if(m){
+      if(m[2]) return m[2];
+      if(m[3]) input = "@"+m[3];
+      else if(m[4]) input = m[4];
+      else if(m[5]) input = m[5];
+    }
+    if(/^UC[\w-]{22}$/.test(input)) return input;
+    var handle = input.replace(/^@/, "");
+    var byHandle = await ytFetch("channels", {part:"id", forHandle: handle});
+    if(byHandle.items && byHandle.items[0]) return byHandle.items[0].id;
+    var byUser = await ytFetch("channels", {part:"id", forUsername: handle});
+    if(byUser.items && byUser.items[0]) return byUser.items[0].id;
+    var bySearch = await ytFetch("search", {part:"snippet", type:"channel", q: handle, maxResults:1});
+    if(bySearch.items && bySearch.items[0]) return bySearch.items[0].id.channelId || bySearch.items[0].snippet.channelId;
+    throw new Error('Could not find a channel matching "'+input+'"');
+  }
+
+  async function studyChannel(){
+    if(!apiKey){ setStatus("Add your YouTube API key first.", true); keyPanel.hidden = false; keyInput.focus(); return; }
+    var raw = channelInput.value.trim();
+    if(!raw){ setStatus("Type a channel handle, URL, or ID first.", true); return; }
+    goBtn.disabled = true;
+    resultEl.classList.remove("visible");
+    try{
+      setStatus("Finding the channel…");
+      var channelId = await resolveChannelId(raw);
+
+      setStatus("Fetching channel details…");
+      var chResp = await ytFetch("channels", {part:"snippet,statistics,contentDetails,brandingSettings", id: channelId});
+      var channel = chResp.items && chResp.items[0];
+      if(!channel) throw new Error("That channel ID doesn't seem to exist.");
+      var uploadsPlaylist = channel.contentDetails.relatedPlaylists.uploads;
+
+      var videoIds = [];
+      var pageToken;
+      var pageCount = 0;
+      do{
+        setStatus("Scanning uploads… ("+videoIds.length+" found so far)");
+        var page = await ytFetch("playlistItems", {part:"contentDetails", playlistId: uploadsPlaylist, maxResults:50, pageToken: pageToken});
+        (page.items||[]).forEach(function(it){ videoIds.push(it.contentDetails.videoId); });
+        pageToken = page.nextPageToken;
+        pageCount++;
+      } while(pageToken && pageCount < 400);
+
+      var allVideos = [];
+      for(var i=0; i<videoIds.length; i+=50){
+        setStatus("Reading stats… ("+Math.min(i+50, videoIds.length)+" / "+videoIds.length+")");
+        var batch = videoIds.slice(i, i+50);
+        var vResp = await ytFetch("videos", {part:"snippet,statistics,contentDetails", id: batch.join(",")});
+        (vResp.items||[]).forEach(function(v){
+          allVideos.push({
+            id: v.id,
+            title: v.snippet.title,
+            publishedAt: v.snippet.publishedAt,
+            thumbUrl: (v.snippet.thumbnails.maxres && v.snippet.thumbnails.maxres.url) || (v.snippet.thumbnails.high && v.snippet.thumbnails.high.url) || v.snippet.thumbnails.default.url,
+            views: parseInt(v.statistics.viewCount||"0",10),
+            likes: v.statistics.likeCount!=null ? parseInt(v.statistics.likeCount,10) : 0,
+            comments: v.statistics.commentCount!=null ? parseInt(v.statistics.commentCount,10) : 0,
+            durationSeconds: parseIsoDuration(v.contentDetails.duration)
+          });
+        });
+      }
+
+      var scored = computeScores(allVideos);
+      currentScored = scored;
+
+      document.getElementById("ch-avatar").src = (channel.snippet.thumbnails.high && channel.snippet.thumbnails.high.url) || channel.snippet.thumbnails.default.url;
+      document.getElementById("ch-title").textContent = channel.snippet.title;
+      var channelUrl = channel.snippet.customUrl ? "https://www.youtube.com/"+channel.snippet.customUrl : "https://www.youtube.com/channel/"+channelId;
+      var bits = [
+        parseInt(channel.statistics.subscriberCount||"0",10).toLocaleString()+" subscribers",
+        parseInt(channel.statistics.videoCount||"0",10).toLocaleString()+" uploads",
+        formatCount(parseInt(channel.statistics.viewCount||"0",10))+" lifetime views",
+        formatChannelAge(channel.snippet.publishedAt)+" on YouTube",
+        '<a class="channel-link" href="'+channelUrl+'" target="_blank" rel="noopener">View channel &#8599;</a>'
+      ];
+      document.getElementById("ch-sub").innerHTML = bits.join(" &middot; ");
+
+      var bannerEl = document.getElementById("ch-banner");
+      var bannerUrl = channel.brandingSettings && channel.brandingSettings.image && channel.brandingSettings.image.bannerExternalUrl;
+      if(bannerUrl){ bannerEl.src = bannerUrl+"=w1280"; bannerEl.hidden = false; }
+      else { bannerEl.hidden = true; bannerEl.removeAttribute("src"); }
+
+      document.getElementById("scan-note").textContent = "Fetched " + allVideos.length + " uploads just now, live from YouTube.";
+
+      addToHistory({
+        channelId: channelId,
+        title: channel.snippet.title,
+        avatar: channel.snippet.thumbnails.default.url,
+        input: raw
+      });
+
+      renderLeaderboard(scored);
+      renderRows();
+      renderHashtags(scored);
+      renderDuration(scored);
+
+      resultEl.classList.add("visible");
+      setStatus("");
+    }catch(err){
+      setStatus(err.message || String(err), true);
+    }finally{
+      goBtn.disabled = false;
+    }
+  }
+
+  goBtn.addEventListener("click", studyChannel);
+  channelInput.addEventListener("keydown", function(e){ if(e.key === "Enter") studyChannel(); });
+
+})();
+</script>
+
+</body>
+</html>
