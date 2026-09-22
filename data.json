@@ -1,5 +1,5 @@
 {
-  "version": "1.11",
+  "version": "1.12",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -11,7 +11,7 @@
     "videoCount": 878,
     "channelViews": 128015,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-09-21T19:00:49.325Z",
+    "lastUpdated": "2026-09-22T07:00:35.484Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -35,6 +35,10 @@
     {
       "date": "2026-09-21",
       "subscriberCount": 609
+    },
+    {
+      "date": "2026-09-22",
+      "subscriberCount": 609
     }
   ],
   "videos": [
@@ -43,7 +47,7 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 530,
+      "views": 541,
       "likes": 26,
       "comments": 6,
       "durationSeconds": 435
@@ -244,7 +248,7 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 530,
+    "views": 541,
     "likes": 26,
     "comments": 6,
     "durationSeconds": 435
@@ -265,7 +269,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 5889,
+      "views": 5896,
       "likes": 271,
       "comments": 28,
       "durationSeconds": 454
@@ -305,7 +309,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2539,
+      "views": 2542,
       "likes": 51,
       "comments": 1,
       "durationSeconds": 37
@@ -385,7 +389,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1529,
+      "views": 1531,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
