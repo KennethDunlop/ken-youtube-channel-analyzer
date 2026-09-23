@@ -1,5 +1,5 @@
 {
-  "version": "1.13",
+  "version": "1.14",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 609,
     "videoCount": 878,
-    "channelViews": 128094,
+    "channelViews": 128115,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-09-22T19:01:03.493Z",
+    "lastUpdated": "2026-09-23T07:01:03.418Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -39,6 +39,10 @@
     {
       "date": "2026-09-22",
       "subscriberCount": 609
+    },
+    {
+      "date": "2026-09-23",
+      "subscriberCount": 609
     }
   ],
   "videos": [
@@ -47,8 +51,8 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 554,
-      "likes": 26,
+      "views": 558,
+      "likes": 27,
       "comments": 6,
       "durationSeconds": 435
     },
@@ -127,7 +131,7 @@
       "title": "Deus Ex is a Megaten game basically",
       "publishedAt": "2026-03-10T18:36:58Z",
       "thumbnail": "thumbs/hzFO30L1Txs.jpg",
-      "views": 436,
+      "views": 437,
       "likes": 19,
       "comments": 6,
       "durationSeconds": 969
@@ -137,7 +141,7 @@
       "title": "Deus Ex matches Paradise Lost really closely",
       "publishedAt": "2026-02-02T17:33:03Z",
       "thumbnail": "thumbs/3kKqzjDePMY.jpg",
-      "views": 700,
+      "views": 701,
       "likes": 38,
       "comments": 7,
       "durationSeconds": 1010
@@ -147,7 +151,7 @@
       "title": "The 6th demo of Super Space Galaxy is here!",
       "publishedAt": "2025-09-28T15:55:06Z",
       "thumbnail": "thumbs/_t4MAe8cHz8.jpg",
-      "views": 912,
+      "views": 914,
       "likes": 24,
       "comments": 7,
       "durationSeconds": 59
@@ -167,7 +171,7 @@
       "title": "Deus Ex is still the best game ever made",
       "publishedAt": "2025-08-20T19:54:17Z",
       "thumbnail": "thumbs/sSDgmkQy6Ok.jpg",
-      "views": 335,
+      "views": 336,
       "likes": 27,
       "comments": 7,
       "durationSeconds": 1225
@@ -248,8 +252,8 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 554,
-    "likes": 26,
+    "views": 558,
+    "likes": 27,
     "comments": 6,
     "durationSeconds": 435
   },
@@ -269,7 +273,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 5900,
+      "views": 5909,
       "likes": 272,
       "comments": 28,
       "durationSeconds": 454
@@ -309,7 +313,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2543,
+      "views": 2545,
       "likes": 51,
       "comments": 1,
       "durationSeconds": 37
@@ -319,7 +323,7 @@
       "title": "No more wasting fuel with the fuel circle!",
       "publishedAt": "2025-03-08T15:14:00Z",
       "thumbnail": "thumbs/VdBx8qkErDg.jpg",
-      "views": 2309,
+      "views": 2310,
       "likes": 49,
       "comments": 2,
       "durationSeconds": 26
@@ -329,7 +333,7 @@
       "title": "My Journey: From Klik & Play to Building A Community of Heroic Game Devs",
       "publishedAt": "2024-10-01T12:15:52Z",
       "thumbnail": "thumbs/mRtdyKInujs.jpg",
-      "views": 2190,
+      "views": 2193,
       "likes": 116,
       "comments": 17,
       "durationSeconds": 417
@@ -349,7 +353,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1873,
+      "views": 1874,
       "likes": 81,
       "comments": 7,
       "durationSeconds": 1079
@@ -359,7 +363,7 @@
       "title": "How to make good liquid sloshing sounds for your game",
       "publishedAt": "2022-12-12T21:39:37Z",
       "thumbnail": "thumbs/-Tq-f8VU9Dg.jpg",
-      "views": 1788,
+      "views": 1790,
       "likes": 57,
       "comments": 1,
       "durationSeconds": 19
@@ -389,7 +393,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1533,
+      "views": 1538,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
