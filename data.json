@@ -1,5 +1,5 @@
 {
-  "version": "1.14",
+  "version": "1.15",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 609,
     "videoCount": 878,
-    "channelViews": 128115,
+    "channelViews": 128164,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-09-23T07:01:03.418Z",
+    "lastUpdated": "2026-09-23T19:01:03.212Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -51,8 +51,8 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 558,
-      "likes": 27,
+      "views": 568,
+      "likes": 29,
       "comments": 6,
       "durationSeconds": 435
     },
@@ -71,7 +71,7 @@
       "title": "The Knights Templar in Deus Ex Explained",
       "publishedAt": "2026-03-29T17:32:15Z",
       "thumbnail": "thumbs/pVz2AR44xKQ.jpg",
-      "views": 270,
+      "views": 271,
       "likes": 20,
       "comments": 10,
       "durationSeconds": 355
@@ -141,7 +141,7 @@
       "title": "Deus Ex matches Paradise Lost really closely",
       "publishedAt": "2026-02-02T17:33:03Z",
       "thumbnail": "thumbs/3kKqzjDePMY.jpg",
-      "views": 701,
+      "views": 702,
       "likes": 38,
       "comments": 7,
       "durationSeconds": 1010
@@ -252,8 +252,8 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 558,
-    "likes": 27,
+    "views": 568,
+    "likes": 29,
     "comments": 6,
     "durationSeconds": 435
   },
@@ -263,7 +263,7 @@
       "title": "Programming is weird, somehow, this one tile is wonky",
       "publishedAt": "2025-02-12T12:00:23Z",
       "thumbnail": "thumbs/pZPgb8-KMWM.jpg",
-      "views": 8446,
+      "views": 8447,
       "likes": 375,
       "comments": 22,
       "durationSeconds": 20
@@ -273,7 +273,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 5909,
+      "views": 5913,
       "likes": 272,
       "comments": 28,
       "durationSeconds": 454
@@ -393,7 +393,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1538,
+      "views": 1542,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
