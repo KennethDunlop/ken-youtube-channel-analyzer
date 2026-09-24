@@ -1,5 +1,5 @@
 {
-  "version": "1.16",
+  "version": "1.17",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -11,7 +11,7 @@
     "videoCount": 878,
     "channelViews": 128182,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-09-24T07:01:09.160Z",
+    "lastUpdated": "2026-09-24T19:01:01.048Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -55,8 +55,8 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 575,
-      "likes": 29,
+      "views": 582,
+      "likes": 30,
       "comments": 6,
       "durationSeconds": 435
     },
@@ -75,7 +75,7 @@
       "title": "The Knights Templar in Deus Ex Explained",
       "publishedAt": "2026-03-29T17:32:15Z",
       "thumbnail": "thumbs/pVz2AR44xKQ.jpg",
-      "views": 271,
+      "views": 272,
       "likes": 20,
       "comments": 10,
       "durationSeconds": 355
@@ -256,8 +256,8 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 575,
-    "likes": 29,
+    "views": 582,
+    "likes": 30,
     "comments": 6,
     "durationSeconds": 435
   },
@@ -277,7 +277,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 5919,
+      "views": 5925,
       "likes": 272,
       "comments": 28,
       "durationSeconds": 454
@@ -397,7 +397,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1544,
+      "views": 1546,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
