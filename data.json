@@ -1,5 +1,5 @@
 {
-  "version": "1.18",
+  "version": "1.19",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 610,
     "videoCount": 878,
-    "channelViews": 128217,
+    "channelViews": 128289,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-09-25T07:00:56.702Z",
+    "lastUpdated": "2026-09-25T19:00:22.717Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -59,7 +59,7 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 587,
+      "views": 589,
       "likes": 30,
       "comments": 6,
       "durationSeconds": 435
@@ -149,7 +149,7 @@
       "title": "Deus Ex matches Paradise Lost really closely",
       "publishedAt": "2026-02-02T17:33:03Z",
       "thumbnail": "thumbs/3kKqzjDePMY.jpg",
-      "views": 703,
+      "views": 704,
       "likes": 38,
       "comments": 7,
       "durationSeconds": 1010
@@ -260,7 +260,7 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 587,
+    "views": 589,
     "likes": 30,
     "comments": 6,
     "durationSeconds": 435
@@ -281,7 +281,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 5933,
+      "views": 5936,
       "likes": 272,
       "comments": 28,
       "durationSeconds": 454
@@ -401,7 +401,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1547,
+      "views": 1548,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
