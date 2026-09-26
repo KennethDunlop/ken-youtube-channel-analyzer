@@ -1,5 +1,5 @@
 {
-  "version": "1.19",
+  "version": "1.20",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 610,
     "videoCount": 878,
-    "channelViews": 128289,
+    "channelViews": 128308,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-09-25T19:00:22.717Z",
+    "lastUpdated": "2026-09-26T07:00:45.418Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -51,6 +51,10 @@
     {
       "date": "2026-09-25",
       "subscriberCount": 610
+    },
+    {
+      "date": "2026-09-26",
+      "subscriberCount": 610
     }
   ],
   "videos": [
@@ -59,7 +63,7 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 589,
+      "views": 591,
       "likes": 30,
       "comments": 6,
       "durationSeconds": 435
@@ -139,7 +143,7 @@
       "title": "Deus Ex is a Megaten game basically",
       "publishedAt": "2026-03-10T18:36:58Z",
       "thumbnail": "thumbs/hzFO30L1Txs.jpg",
-      "views": 440,
+      "views": 439,
       "likes": 19,
       "comments": 6,
       "durationSeconds": 969
@@ -260,7 +264,7 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 589,
+    "views": 591,
     "likes": 30,
     "comments": 6,
     "durationSeconds": 435
@@ -281,7 +285,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 5936,
+      "views": 5948,
       "likes": 272,
       "comments": 28,
       "durationSeconds": 454
@@ -341,7 +345,7 @@
       "title": "My Journey: From Klik & Play to Building A Community of Heroic Game Devs",
       "publishedAt": "2024-10-01T12:15:52Z",
       "thumbnail": "thumbs/mRtdyKInujs.jpg",
-      "views": 2199,
+      "views": 2200,
       "likes": 116,
       "comments": 17,
       "durationSeconds": 417
@@ -361,7 +365,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1876,
+      "views": 1877,
       "likes": 81,
       "comments": 7,
       "durationSeconds": 1079
@@ -401,7 +405,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1548,
+      "views": 1551,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
