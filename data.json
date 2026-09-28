@@ -1,5 +1,5 @@
 {
-  "version": "1.23",
+  "version": "1.24",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 610,
     "videoCount": 878,
-    "channelViews": 128361,
+    "channelViews": 128389,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-09-27T19:00:54.887Z",
+    "lastUpdated": "2026-09-28T07:00:34.022Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -58,6 +58,10 @@
     },
     {
       "date": "2026-09-27",
+      "subscriberCount": 610
+    },
+    {
+      "date": "2026-09-28",
       "subscriberCount": 610
     }
   ],
@@ -147,7 +151,7 @@
       "title": "Deus Ex is a Megaten game basically",
       "publishedAt": "2026-03-10T18:36:58Z",
       "thumbnail": "thumbs/hzFO30L1Txs.jpg",
-      "views": 439,
+      "views": 440,
       "likes": 19,
       "comments": 6,
       "durationSeconds": 969
@@ -289,7 +293,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 5971,
+      "views": 5977,
       "likes": 272,
       "comments": 28,
       "durationSeconds": 454
@@ -319,7 +323,7 @@
       "title": "The Mega Laser is all spruced up",
       "publishedAt": "2025-03-12T14:55:14Z",
       "thumbnail": "thumbs/71jZmXqijkw.jpg",
-      "views": 2559,
+      "views": 2561,
       "likes": 54,
       "comments": 4,
       "durationSeconds": 20
@@ -329,7 +333,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2551,
+      "views": 2553,
       "likes": 52,
       "comments": 1,
       "durationSeconds": 37
@@ -349,7 +353,7 @@
       "title": "My Journey: From Klik & Play to Building A Community of Heroic Game Devs",
       "publishedAt": "2024-10-01T12:15:52Z",
       "thumbnail": "thumbs/mRtdyKInujs.jpg",
-      "views": 2202,
+      "views": 2203,
       "likes": 116,
       "comments": 17,
       "durationSeconds": 417
@@ -379,7 +383,7 @@
       "title": "How to make good liquid sloshing sounds for your game",
       "publishedAt": "2022-12-12T21:39:37Z",
       "thumbnail": "thumbs/-Tq-f8VU9Dg.jpg",
-      "views": 1792,
+      "views": 1793,
       "likes": 57,
       "comments": 1,
       "durationSeconds": 19
