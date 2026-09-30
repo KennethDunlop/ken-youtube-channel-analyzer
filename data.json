@@ -1,5 +1,5 @@
 {
-  "version": "1.27",
+  "version": "1.28",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 610,
     "videoCount": 878,
-    "channelViews": 128444,
+    "channelViews": 128510,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-09-29T19:00:38.607Z",
+    "lastUpdated": "2026-09-30T07:00:42.421Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -67,6 +67,10 @@
     {
       "date": "2026-09-29",
       "subscriberCount": 610
+    },
+    {
+      "date": "2026-09-30",
+      "subscriberCount": 610
     }
   ],
   "videos": [
@@ -75,7 +79,7 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 613,
+      "views": 617,
       "likes": 30,
       "comments": 6,
       "durationSeconds": 435
@@ -95,7 +99,7 @@
       "title": "The Knights Templar in Deus Ex Explained",
       "publishedAt": "2026-03-29T17:32:15Z",
       "thumbnail": "thumbs/pVz2AR44xKQ.jpg",
-      "views": 275,
+      "views": 276,
       "likes": 20,
       "comments": 10,
       "durationSeconds": 355
@@ -135,7 +139,7 @@
       "title": "Alastair's dream: A dog with a lion's mane",
       "publishedAt": "2026-03-17T20:55:43Z",
       "thumbnail": "thumbs/xBGkPO3xL24.jpg",
-      "views": 1467,
+      "views": 1468,
       "likes": 10,
       "comments": 1,
       "durationSeconds": 31
@@ -155,7 +159,7 @@
       "title": "Deus Ex is a Megaten game basically",
       "publishedAt": "2026-03-10T18:36:58Z",
       "thumbnail": "thumbs/hzFO30L1Txs.jpg",
-      "views": 443,
+      "views": 444,
       "likes": 19,
       "comments": 6,
       "durationSeconds": 969
@@ -195,7 +199,7 @@
       "title": "Deus Ex is still the best game ever made",
       "publishedAt": "2025-08-20T19:54:17Z",
       "thumbnail": "thumbs/sSDgmkQy6Ok.jpg",
-      "views": 341,
+      "views": 342,
       "likes": 28,
       "comments": 7,
       "durationSeconds": 1225
@@ -276,7 +280,7 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 613,
+    "views": 617,
     "likes": 30,
     "comments": 6,
     "durationSeconds": 435
@@ -287,7 +291,7 @@
       "title": "Programming is weird, somehow, this one tile is wonky",
       "publishedAt": "2025-02-12T12:00:23Z",
       "thumbnail": "thumbs/pZPgb8-KMWM.jpg",
-      "views": 8447,
+      "views": 8449,
       "likes": 375,
       "comments": 22,
       "durationSeconds": 20
@@ -297,7 +301,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 5991,
+      "views": 5999,
       "likes": 272,
       "comments": 28,
       "durationSeconds": 454
@@ -307,7 +311,7 @@
       "title": "Exploring the map has been made better",
       "publishedAt": "2023-10-06T22:46:01Z",
       "thumbnail": "thumbs/idZhWzqsSYM.jpg",
-      "views": 5409,
+      "views": 5414,
       "likes": 90,
       "comments": 10,
       "durationSeconds": 11
@@ -327,7 +331,7 @@
       "title": "The Mega Laser is all spruced up",
       "publishedAt": "2025-03-12T14:55:14Z",
       "thumbnail": "thumbs/71jZmXqijkw.jpg",
-      "views": 2561,
+      "views": 2563,
       "likes": 54,
       "comments": 4,
       "durationSeconds": 20
@@ -357,7 +361,7 @@
       "title": "My Journey: From Klik & Play to Building A Community of Heroic Game Devs",
       "publishedAt": "2024-10-01T12:15:52Z",
       "thumbnail": "thumbs/mRtdyKInujs.jpg",
-      "views": 2204,
+      "views": 2205,
       "likes": 117,
       "comments": 17,
       "durationSeconds": 417
@@ -417,7 +421,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1556,
+      "views": 1560,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
@@ -437,7 +441,7 @@
       "title": "Alastair's dream: A dog with a lion's mane",
       "publishedAt": "2026-03-17T20:55:43Z",
       "thumbnail": "thumbs/xBGkPO3xL24.jpg",
-      "views": 1467,
+      "views": 1468,
       "likes": 10,
       "comments": 1,
       "durationSeconds": 31
