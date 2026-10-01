@@ -1,5 +1,5 @@
 {
-  "version": "1.30",
+  "version": "1.31",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
-    "subscriberCount": 609,
+    "subscriberCount": 610,
     "videoCount": 878,
-    "channelViews": 128563,
+    "channelViews": 128590,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-01T07:00:23.970Z",
+    "lastUpdated": "2026-10-01T19:01:12.293Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -74,7 +74,7 @@
     },
     {
       "date": "2026-10-01",
-      "subscriberCount": 609
+      "subscriberCount": 610
     }
   ],
   "videos": [
@@ -83,9 +83,9 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 630,
-      "likes": 30,
-      "comments": 6,
+      "views": 633,
+      "likes": 31,
+      "comments": 8,
       "durationSeconds": 435
     },
     {
@@ -163,9 +163,9 @@
       "title": "Deus Ex is a Megaten game basically",
       "publishedAt": "2026-03-10T18:36:58Z",
       "thumbnail": "thumbs/hzFO30L1Txs.jpg",
-      "views": 444,
-      "likes": 19,
-      "comments": 6,
+      "views": 446,
+      "likes": 20,
+      "comments": 8,
       "durationSeconds": 969
     },
     {
@@ -183,7 +183,7 @@
       "title": "The 6th demo of Super Space Galaxy is here!",
       "publishedAt": "2025-09-28T15:55:06Z",
       "thumbnail": "thumbs/_t4MAe8cHz8.jpg",
-      "views": 914,
+      "views": 917,
       "likes": 24,
       "comments": 7,
       "durationSeconds": 59
@@ -203,7 +203,7 @@
       "title": "Deus Ex is still the best game ever made",
       "publishedAt": "2025-08-20T19:54:17Z",
       "thumbnail": "thumbs/sSDgmkQy6Ok.jpg",
-      "views": 343,
+      "views": 344,
       "likes": 28,
       "comments": 7,
       "durationSeconds": 1225
@@ -213,7 +213,7 @@
       "title": "I was able to make these new Nether enemies fairly quickly",
       "publishedAt": "2025-03-22T21:20:38Z",
       "thumbnail": "thumbs/sT145FWjzDc.jpg",
-      "views": 537,
+      "views": 538,
       "likes": 8,
       "comments": 1,
       "durationSeconds": 23
@@ -233,7 +233,7 @@
       "title": "These enemies now have custom glowy parts!",
       "publishedAt": "2025-03-21T15:05:05Z",
       "thumbnail": "thumbs/8MOpN5gh0Vc.jpg",
-      "views": 1024,
+      "views": 1025,
       "likes": 14,
       "comments": 1,
       "durationSeconds": 18
@@ -243,7 +243,7 @@
       "title": "This new enemy ship type will appear in the Nether",
       "publishedAt": "2025-03-20T17:01:10Z",
       "thumbnail": "thumbs/CDjc6Og-2ts.jpg",
-      "views": 350,
+      "views": 351,
       "likes": 10,
       "comments": 4,
       "durationSeconds": 17
@@ -284,9 +284,9 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 630,
-    "likes": 30,
-    "comments": 6,
+    "views": 633,
+    "likes": 31,
+    "comments": 8,
     "durationSeconds": 435
   },
   "popularVideos": [
@@ -305,7 +305,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6001,
+      "views": 6007,
       "likes": 272,
       "comments": 28,
       "durationSeconds": 454
@@ -355,7 +355,7 @@
       "title": "No more wasting fuel with the fuel circle!",
       "publishedAt": "2025-03-08T15:14:00Z",
       "thumbnail": "thumbs/VdBx8qkErDg.jpg",
-      "views": 2310,
+      "views": 2312,
       "likes": 49,
       "comments": 2,
       "durationSeconds": 26
@@ -365,7 +365,7 @@
       "title": "My Journey: From Klik & Play to Building A Community of Heroic Game Devs",
       "publishedAt": "2024-10-01T12:15:52Z",
       "thumbnail": "thumbs/mRtdyKInujs.jpg",
-      "views": 2206,
+      "views": 2207,
       "likes": 117,
       "comments": 17,
       "durationSeconds": 417
@@ -385,7 +385,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1883,
+      "views": 1885,
       "likes": 81,
       "comments": 7,
       "durationSeconds": 1079
@@ -395,7 +395,7 @@
       "title": "How to make good liquid sloshing sounds for your game",
       "publishedAt": "2022-12-12T21:39:37Z",
       "thumbnail": "thumbs/-Tq-f8VU9Dg.jpg",
-      "views": 1793,
+      "views": 1796,
       "likes": 57,
       "comments": 1,
       "durationSeconds": 19
@@ -425,7 +425,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1560,
+      "views": 1565,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
