@@ -1,5 +1,5 @@
 {
-  "version": "1.31",
+  "version": "1.32",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 610,
     "videoCount": 878,
-    "channelViews": 128590,
+    "channelViews": 128619,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-01T19:01:12.293Z",
+    "lastUpdated": "2026-10-02T07:00:35.142Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -75,6 +75,10 @@
     {
       "date": "2026-10-01",
       "subscriberCount": 610
+    },
+    {
+      "date": "2026-10-02",
+      "subscriberCount": 610
     }
   ],
   "videos": [
@@ -83,9 +87,9 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 633,
+      "views": 646,
       "likes": 31,
-      "comments": 8,
+      "comments": 10,
       "durationSeconds": 435
     },
     {
@@ -100,10 +104,10 @@
     },
     {
       "id": "pVz2AR44xKQ",
-      "title": "The Knights Templar in Deus Ex Explained",
+      "title": "Deus Ex and the Templar Cathedral Conspiracy",
       "publishedAt": "2026-03-29T17:32:15Z",
       "thumbnail": "thumbs/pVz2AR44xKQ.jpg",
-      "views": 276,
+      "views": 280,
       "likes": 20,
       "comments": 10,
       "durationSeconds": 355
@@ -163,7 +167,7 @@
       "title": "Deus Ex is a Megaten game basically",
       "publishedAt": "2026-03-10T18:36:58Z",
       "thumbnail": "thumbs/hzFO30L1Txs.jpg",
-      "views": 446,
+      "views": 451,
       "likes": 20,
       "comments": 8,
       "durationSeconds": 969
@@ -173,7 +177,7 @@
       "title": "Deus Ex matches Paradise Lost really closely",
       "publishedAt": "2026-02-02T17:33:03Z",
       "thumbnail": "thumbs/3kKqzjDePMY.jpg",
-      "views": 706,
+      "views": 714,
       "likes": 38,
       "comments": 7,
       "durationSeconds": 1010
@@ -203,7 +207,7 @@
       "title": "Deus Ex is still the best game ever made",
       "publishedAt": "2025-08-20T19:54:17Z",
       "thumbnail": "thumbs/sSDgmkQy6Ok.jpg",
-      "views": 344,
+      "views": 350,
       "likes": 28,
       "comments": 7,
       "durationSeconds": 1225
@@ -284,9 +288,9 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 633,
+    "views": 646,
     "likes": 31,
-    "comments": 8,
+    "comments": 10,
     "durationSeconds": 435
   },
   "popularVideos": [
@@ -305,7 +309,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6007,
+      "views": 6011,
       "likes": 272,
       "comments": 28,
       "durationSeconds": 454
@@ -425,7 +429,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1565,
+      "views": 1566,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
