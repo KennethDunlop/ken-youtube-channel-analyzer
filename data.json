@@ -1,5 +1,5 @@
 {
-  "version": "1.34",
+  "version": "1.35",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 610,
     "videoCount": 878,
-    "channelViews": 128684,
+    "channelViews": 128698,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-03T07:01:30.047Z",
+    "lastUpdated": "2026-10-03T19:01:49.505Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -91,8 +91,8 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 647,
-      "likes": 31,
+      "views": 650,
+      "likes": 32,
       "comments": 10,
       "durationSeconds": 435
     },
@@ -121,7 +121,7 @@
       "title": "Why did Macaulay Culkin appear in my dream?",
       "publishedAt": "2026-03-26T22:45:56Z",
       "thumbnail": "thumbs/Pc-alFpdI9o.jpg",
-      "views": 42,
+      "views": 43,
       "likes": 0,
       "comments": 1,
       "durationSeconds": 13
@@ -131,7 +131,7 @@
       "title": "Crocodiles in a swimming pool! #dreams",
       "publishedAt": "2026-03-23T21:50:35Z",
       "thumbnail": "thumbs/Ur_532cLTXE.jpg",
-      "views": 500,
+      "views": 501,
       "likes": 4,
       "comments": 1,
       "durationSeconds": 47
@@ -181,7 +181,7 @@
       "title": "Deus Ex matches Paradise Lost really closely",
       "publishedAt": "2026-02-02T17:33:03Z",
       "thumbnail": "thumbs/3kKqzjDePMY.jpg",
-      "views": 714,
+      "views": 715,
       "likes": 38,
       "comments": 7,
       "durationSeconds": 1010
@@ -191,7 +191,7 @@
       "title": "The 6th demo of Super Space Galaxy is here!",
       "publishedAt": "2025-09-28T15:55:06Z",
       "thumbnail": "thumbs/_t4MAe8cHz8.jpg",
-      "views": 917,
+      "views": 918,
       "likes": 24,
       "comments": 7,
       "durationSeconds": 59
@@ -292,8 +292,8 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 647,
-    "likes": 31,
+    "views": 650,
+    "likes": 32,
     "comments": 10,
     "durationSeconds": 435
   },
@@ -313,7 +313,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6020,
+      "views": 6027,
       "likes": 272,
       "comments": 28,
       "durationSeconds": 454
@@ -339,6 +339,16 @@
       "durationSeconds": 18
     },
     {
+      "id": "-7dRWTnj1do",
+      "title": "How Leon made his Clickteam Fusion level-design tool",
+      "publishedAt": "2025-03-03T12:14:38Z",
+      "thumbnail": "thumbs/-7dRWTnj1do.jpg",
+      "views": 2565,
+      "likes": 52,
+      "comments": 1,
+      "durationSeconds": 37
+    },
+    {
       "id": "71jZmXqijkw",
       "title": "The Mega Laser is all spruced up",
       "publishedAt": "2025-03-12T14:55:14Z",
@@ -347,16 +357,6 @@
       "likes": 54,
       "comments": 4,
       "durationSeconds": 20
-    },
-    {
-      "id": "-7dRWTnj1do",
-      "title": "How Leon made his Clickteam Fusion level-design tool",
-      "publishedAt": "2025-03-03T12:14:38Z",
-      "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2561,
-      "likes": 52,
-      "comments": 1,
-      "durationSeconds": 37
     },
     {
       "id": "VdBx8qkErDg",
@@ -403,7 +403,7 @@
       "title": "How to make good liquid sloshing sounds for your game",
       "publishedAt": "2022-12-12T21:39:37Z",
       "thumbnail": "thumbs/-Tq-f8VU9Dg.jpg",
-      "views": 1796,
+      "views": 1797,
       "likes": 57,
       "comments": 1,
       "durationSeconds": 19
@@ -433,7 +433,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1571,
+      "views": 1573,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
