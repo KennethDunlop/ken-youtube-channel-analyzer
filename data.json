@@ -1,5 +1,5 @@
 {
-  "version": "1.33",
+  "version": "1.34",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 610,
     "videoCount": 878,
-    "channelViews": 128672,
+    "channelViews": 128684,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-02T19:00:46.762Z",
+    "lastUpdated": "2026-10-03T07:01:30.047Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -78,6 +78,10 @@
     },
     {
       "date": "2026-10-02",
+      "subscriberCount": 610
+    },
+    {
+      "date": "2026-10-03",
       "subscriberCount": 610
     }
   ],
@@ -197,7 +201,7 @@
       "title": "Super Space Galaxy - V6 Trailer",
       "publishedAt": "2025-09-14T21:16:25Z",
       "thumbnail": "thumbs/8rQOyTl5A-8.jpg",
-      "views": 286,
+      "views": 288,
       "likes": 11,
       "comments": 7,
       "durationSeconds": 59
@@ -309,7 +313,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6015,
+      "views": 6020,
       "likes": 272,
       "comments": 28,
       "durationSeconds": 454
@@ -369,7 +373,7 @@
       "title": "My Journey: From Klik & Play to Building A Community of Heroic Game Devs",
       "publishedAt": "2024-10-01T12:15:52Z",
       "thumbnail": "thumbs/mRtdyKInujs.jpg",
-      "views": 2207,
+      "views": 2209,
       "likes": 117,
       "comments": 17,
       "durationSeconds": 417
@@ -429,7 +433,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1569,
+      "views": 1571,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
