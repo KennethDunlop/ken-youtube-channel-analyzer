@@ -1,5 +1,5 @@
 {
-  "version": "1.35",
+  "version": "1.36",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
-    "subscriberCount": 610,
+    "subscriberCount": 611,
     "videoCount": 878,
-    "channelViews": 128698,
+    "channelViews": 128729,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-03T19:01:49.505Z",
+    "lastUpdated": "2026-10-04T07:01:41.873Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -83,6 +83,10 @@
     {
       "date": "2026-10-03",
       "subscriberCount": 610
+    },
+    {
+      "date": "2026-10-04",
+      "subscriberCount": 611
     }
   ],
   "videos": [
@@ -91,7 +95,7 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 650,
+      "views": 653,
       "likes": 32,
       "comments": 10,
       "durationSeconds": 435
@@ -201,7 +205,7 @@
       "title": "Super Space Galaxy - V6 Trailer",
       "publishedAt": "2025-09-14T21:16:25Z",
       "thumbnail": "thumbs/8rQOyTl5A-8.jpg",
-      "views": 288,
+      "views": 289,
       "likes": 11,
       "comments": 7,
       "durationSeconds": 59
@@ -292,7 +296,7 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 650,
+    "views": 653,
     "likes": 32,
     "comments": 10,
     "durationSeconds": 435
@@ -313,8 +317,8 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6027,
-      "likes": 272,
+      "views": 6033,
+      "likes": 273,
       "comments": 28,
       "durationSeconds": 454
     },
@@ -343,8 +347,8 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2565,
-      "likes": 52,
+      "views": 2571,
+      "likes": 53,
       "comments": 1,
       "durationSeconds": 37
     },
@@ -363,7 +367,7 @@
       "title": "No more wasting fuel with the fuel circle!",
       "publishedAt": "2025-03-08T15:14:00Z",
       "thumbnail": "thumbs/VdBx8qkErDg.jpg",
-      "views": 2312,
+      "views": 2313,
       "likes": 49,
       "comments": 2,
       "durationSeconds": 26
@@ -393,7 +397,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1886,
+      "views": 1887,
       "likes": 81,
       "comments": 7,
       "durationSeconds": 1079
@@ -403,7 +407,7 @@
       "title": "How to make good liquid sloshing sounds for your game",
       "publishedAt": "2022-12-12T21:39:37Z",
       "thumbnail": "thumbs/-Tq-f8VU9Dg.jpg",
-      "views": 1797,
+      "views": 1798,
       "likes": 57,
       "comments": 1,
       "durationSeconds": 19
