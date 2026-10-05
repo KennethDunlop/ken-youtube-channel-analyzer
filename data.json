@@ -1,5 +1,5 @@
 {
-  "version": "1.39",
+  "version": "1.40",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 611,
     "videoCount": 878,
-    "channelViews": 128771,
+    "channelViews": 128789,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-05T07:00:28.255Z",
+    "lastUpdated": "2026-10-05T19:00:53.828Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -119,8 +119,8 @@
       "title": "Deus Ex and the Templar Cathedral Conspiracy",
       "publishedAt": "2026-03-29T17:32:15Z",
       "thumbnail": "thumbs/pVz2AR44xKQ.jpg",
-      "views": 280,
-      "likes": 20,
+      "views": 282,
+      "likes": 21,
       "comments": 10,
       "durationSeconds": 355
     },
@@ -321,7 +321,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6050,
+      "views": 6057,
       "likes": 273,
       "comments": 28,
       "durationSeconds": 454
@@ -441,7 +441,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1574,
+      "views": 1576,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
