@@ -1,5 +1,5 @@
 {
-  "version": "1.47",
+  "version": "1.48",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
-    "subscriberCount": 612,
+    "subscriberCount": 613,
     "videoCount": 878,
     "channelViews": 128914,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-09T07:00:51.411Z",
+    "lastUpdated": "2026-10-09T19:01:04.838Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -106,7 +106,7 @@
     },
     {
       "date": "2026-10-09",
-      "subscriberCount": 612
+      "subscriberCount": 613
     }
   ],
   "videos": [
@@ -115,7 +115,7 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 669,
+      "views": 670,
       "likes": 32,
       "comments": 10,
       "durationSeconds": 435
@@ -225,7 +225,7 @@
       "title": "Super Space Galaxy - V6 Trailer",
       "publishedAt": "2025-09-14T21:16:25Z",
       "thumbnail": "thumbs/8rQOyTl5A-8.jpg",
-      "views": 290,
+      "views": 292,
       "likes": 11,
       "comments": 7,
       "durationSeconds": 59
@@ -316,7 +316,7 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 669,
+    "views": 670,
     "likes": 32,
     "comments": 10,
     "durationSeconds": 435
@@ -337,7 +337,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6090,
+      "views": 6094,
       "likes": 273,
       "comments": 28,
       "durationSeconds": 454
@@ -367,7 +367,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2576,
+      "views": 2579,
       "likes": 53,
       "comments": 1,
       "durationSeconds": 37
@@ -417,7 +417,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1893,
+      "views": 1894,
       "likes": 81,
       "comments": 7,
       "durationSeconds": 1079
