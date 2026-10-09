@@ -1,5 +1,5 @@
 {
-  "version": "1.46",
+  "version": "1.47",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 612,
     "videoCount": 878,
-    "channelViews": 128908,
+    "channelViews": 128914,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-08T19:01:04.013Z",
+    "lastUpdated": "2026-10-09T07:00:51.411Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -103,6 +103,10 @@
     {
       "date": "2026-10-08",
       "subscriberCount": 612
+    },
+    {
+      "date": "2026-10-09",
+      "subscriberCount": 612
     }
   ],
   "videos": [
@@ -111,7 +115,7 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 667,
+      "views": 669,
       "likes": 32,
       "comments": 10,
       "durationSeconds": 435
@@ -231,7 +235,7 @@
       "title": "Deus Ex is still the best game ever made",
       "publishedAt": "2025-08-20T19:54:17Z",
       "thumbnail": "thumbs/sSDgmkQy6Ok.jpg",
-      "views": 351,
+      "views": 352,
       "likes": 28,
       "comments": 7,
       "durationSeconds": 1225
@@ -312,7 +316,7 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 667,
+    "views": 669,
     "likes": 32,
     "comments": 10,
     "durationSeconds": 435
@@ -333,7 +337,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6085,
+      "views": 6090,
       "likes": 273,
       "comments": 28,
       "durationSeconds": 454
@@ -453,7 +457,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1593,
+      "views": 1595,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
