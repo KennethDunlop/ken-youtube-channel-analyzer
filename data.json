@@ -1,5 +1,5 @@
 {
-  "version": "1.48",
+  "version": "1.49",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
-    "subscriberCount": 613,
+    "subscriberCount": 614,
     "videoCount": 878,
-    "channelViews": 128914,
+    "channelViews": 128950,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-09T19:01:04.838Z",
+    "lastUpdated": "2026-10-10T07:01:18.990Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -107,6 +107,10 @@
     {
       "date": "2026-10-09",
       "subscriberCount": 613
+    },
+    {
+      "date": "2026-10-10",
+      "subscriberCount": 614
     }
   ],
   "videos": [
@@ -115,8 +119,8 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 670,
-      "likes": 32,
+      "views": 673,
+      "likes": 33,
       "comments": 10,
       "durationSeconds": 435
     },
@@ -205,8 +209,8 @@
       "title": "Deus Ex matches Paradise Lost really closely",
       "publishedAt": "2026-02-02T17:33:03Z",
       "thumbnail": "thumbs/3kKqzjDePMY.jpg",
-      "views": 715,
-      "likes": 38,
+      "views": 723,
+      "likes": 40,
       "comments": 7,
       "durationSeconds": 1010
     },
@@ -235,8 +239,8 @@
       "title": "Deus Ex is still the best game ever made",
       "publishedAt": "2025-08-20T19:54:17Z",
       "thumbnail": "thumbs/sSDgmkQy6Ok.jpg",
-      "views": 352,
-      "likes": 28,
+      "views": 353,
+      "likes": 29,
       "comments": 7,
       "durationSeconds": 1225
     },
@@ -316,8 +320,8 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 670,
-    "likes": 32,
+    "views": 673,
+    "likes": 33,
     "comments": 10,
     "durationSeconds": 435
   },
@@ -337,7 +341,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6094,
+      "views": 6097,
       "likes": 273,
       "comments": 28,
       "durationSeconds": 454
@@ -367,7 +371,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2579,
+      "views": 2580,
       "likes": 53,
       "comments": 1,
       "durationSeconds": 37
@@ -397,7 +401,7 @@
       "title": "My Journey: From Klik & Play to Building A Community of Heroic Game Devs",
       "publishedAt": "2024-10-01T12:15:52Z",
       "thumbnail": "thumbs/mRtdyKInujs.jpg",
-      "views": 2211,
+      "views": 2213,
       "likes": 117,
       "comments": 17,
       "durationSeconds": 417
@@ -417,7 +421,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1894,
+      "views": 1895,
       "likes": 81,
       "comments": 7,
       "durationSeconds": 1079
@@ -517,7 +521,7 @@
       "title": "How to make a \"Physics Engine\" in Clickteam Fusion",
       "publishedAt": "2023-11-03T18:39:11Z",
       "thumbnail": "thumbs/x-EPJREh8O0.jpg",
-      "views": 1318,
+      "views": 1319,
       "likes": 44,
       "comments": 3,
       "durationSeconds": 581
