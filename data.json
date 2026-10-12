@@ -1,5 +1,5 @@
 {
-  "version": "1.52",
+  "version": "1.53",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 614,
     "videoCount": 878,
-    "channelViews": 129018,
+    "channelViews": 129036,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-11T19:00:52.291Z",
+    "lastUpdated": "2026-10-12T07:01:15.427Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -115,6 +115,10 @@
     {
       "date": "2026-10-11",
       "subscriberCount": 614
+    },
+    {
+      "date": "2026-10-12",
+      "subscriberCount": 614
     }
   ],
   "videos": [
@@ -123,7 +127,7 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 677,
+      "views": 682,
       "likes": 33,
       "comments": 10,
       "durationSeconds": 435
@@ -143,7 +147,7 @@
       "title": "Deus Ex and the Templar Cathedral Conspiracy",
       "publishedAt": "2026-03-29T17:32:15Z",
       "thumbnail": "thumbs/pVz2AR44xKQ.jpg",
-      "views": 282,
+      "views": 283,
       "likes": 21,
       "comments": 10,
       "durationSeconds": 355
@@ -203,7 +207,7 @@
       "title": "Deus Ex is a Megaten game basically",
       "publishedAt": "2026-03-10T18:36:58Z",
       "thumbnail": "thumbs/hzFO30L1Txs.jpg",
-      "views": 454,
+      "views": 455,
       "likes": 20,
       "comments": 8,
       "durationSeconds": 969
@@ -243,7 +247,7 @@
       "title": "Deus Ex is still the best game ever made",
       "publishedAt": "2025-08-20T19:54:17Z",
       "thumbnail": "thumbs/sSDgmkQy6Ok.jpg",
-      "views": 358,
+      "views": 359,
       "likes": 29,
       "comments": 7,
       "durationSeconds": 1225
@@ -324,7 +328,7 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 677,
+    "views": 682,
     "likes": 33,
     "comments": 10,
     "durationSeconds": 435
@@ -345,7 +349,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6114,
+      "views": 6123,
       "likes": 273,
       "comments": 28,
       "durationSeconds": 454
@@ -405,7 +409,7 @@
       "title": "My Journey: From Klik & Play to Building A Community of Heroic Game Devs",
       "publishedAt": "2024-10-01T12:15:52Z",
       "thumbnail": "thumbs/mRtdyKInujs.jpg",
-      "views": 2213,
+      "views": 2214,
       "likes": 117,
       "comments": 17,
       "durationSeconds": 417
@@ -425,7 +429,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1897,
+      "views": 1898,
       "likes": 81,
       "comments": 7,
       "durationSeconds": 1079
@@ -435,7 +439,7 @@
       "title": "How to make good liquid sloshing sounds for your game",
       "publishedAt": "2022-12-12T21:39:37Z",
       "thumbnail": "thumbs/-Tq-f8VU9Dg.jpg",
-      "views": 1809,
+      "views": 1810,
       "likes": 57,
       "comments": 1,
       "durationSeconds": 19
@@ -465,7 +469,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1597,
+      "views": 1598,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
