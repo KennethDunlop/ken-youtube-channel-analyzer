@@ -1,5 +1,5 @@
 {
-  "version": "1.54",
+  "version": "1.55",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -11,7 +11,7 @@
     "videoCount": 878,
     "channelViews": 129067,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-12T19:01:03.136Z",
+    "lastUpdated": "2026-10-13T07:01:20.461Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -119,6 +119,10 @@
     {
       "date": "2026-10-12",
       "subscriberCount": 614
+    },
+    {
+      "date": "2026-10-13",
+      "subscriberCount": 614
     }
   ],
   "videos": [
@@ -127,7 +131,7 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 686,
+      "views": 688,
       "likes": 33,
       "comments": 10,
       "durationSeconds": 435
@@ -237,7 +241,7 @@
       "title": "Super Space Galaxy - V6 Trailer",
       "publishedAt": "2025-09-14T21:16:25Z",
       "thumbnail": "thumbs/8rQOyTl5A-8.jpg",
-      "views": 292,
+      "views": 294,
       "likes": 11,
       "comments": 7,
       "durationSeconds": 59
@@ -328,7 +332,7 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 686,
+    "views": 688,
     "likes": 33,
     "comments": 10,
     "durationSeconds": 435
@@ -349,7 +353,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6128,
+      "views": 6130,
       "likes": 274,
       "comments": 28,
       "durationSeconds": 454
@@ -379,7 +383,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2581,
+      "views": 2582,
       "likes": 53,
       "comments": 1,
       "durationSeconds": 37
@@ -439,7 +443,7 @@
       "title": "How to make good liquid sloshing sounds for your game",
       "publishedAt": "2022-12-12T21:39:37Z",
       "thumbnail": "thumbs/-Tq-f8VU9Dg.jpg",
-      "views": 1810,
+      "views": 1811,
       "likes": 57,
       "comments": 1,
       "durationSeconds": 19
