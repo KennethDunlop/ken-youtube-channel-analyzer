@@ -1,5 +1,5 @@
 {
-  "version": "1.57",
+  "version": "1.58",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -11,7 +11,7 @@
     "videoCount": 878,
     "channelViews": 129110,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-14T07:00:58.882Z",
+    "lastUpdated": "2026-10-14T19:01:16.325Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -135,7 +135,7 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 696,
+      "views": 700,
       "likes": 33,
       "comments": 10,
       "durationSeconds": 435
@@ -165,7 +165,7 @@
       "title": "Why did Macaulay Culkin appear in my dream?",
       "publishedAt": "2026-03-26T22:45:56Z",
       "thumbnail": "thumbs/Pc-alFpdI9o.jpg",
-      "views": 45,
+      "views": 46,
       "likes": 0,
       "comments": 1,
       "durationSeconds": 13
@@ -215,7 +215,7 @@
       "title": "Deus Ex is a Megaten game basically",
       "publishedAt": "2026-03-10T18:36:58Z",
       "thumbnail": "thumbs/hzFO30L1Txs.jpg",
-      "views": 456,
+      "views": 457,
       "likes": 20,
       "comments": 8,
       "durationSeconds": 969
@@ -225,7 +225,7 @@
       "title": "Deus Ex matches Paradise Lost really closely",
       "publishedAt": "2026-02-02T17:33:03Z",
       "thumbnail": "thumbs/3kKqzjDePMY.jpg",
-      "views": 725,
+      "views": 727,
       "likes": 40,
       "comments": 7,
       "durationSeconds": 1010
@@ -235,7 +235,7 @@
       "title": "The 6th demo of Super Space Galaxy is here!",
       "publishedAt": "2025-09-28T15:55:06Z",
       "thumbnail": "thumbs/_t4MAe8cHz8.jpg",
-      "views": 918,
+      "views": 919,
       "likes": 24,
       "comments": 7,
       "durationSeconds": 59
@@ -255,7 +255,7 @@
       "title": "Deus Ex is still the best game ever made",
       "publishedAt": "2025-08-20T19:54:17Z",
       "thumbnail": "thumbs/sSDgmkQy6Ok.jpg",
-      "views": 359,
+      "views": 360,
       "likes": 29,
       "comments": 7,
       "durationSeconds": 1225
@@ -336,7 +336,7 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 696,
+    "views": 700,
     "likes": 33,
     "comments": 10,
     "durationSeconds": 435
@@ -357,7 +357,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6143,
+      "views": 6156,
       "likes": 274,
       "comments": 28,
       "durationSeconds": 454
@@ -437,7 +437,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1901,
+      "views": 1902,
       "likes": 81,
       "comments": 7,
       "durationSeconds": 1079
