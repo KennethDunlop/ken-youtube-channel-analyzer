@@ -1,5 +1,5 @@
 {
-  "version": "1.56",
+  "version": "1.57",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
-    "subscriberCount": 615,
+    "subscriberCount": 616,
     "videoCount": 878,
-    "channelViews": 129102,
+    "channelViews": 129110,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-13T19:01:00.971Z",
+    "lastUpdated": "2026-10-14T07:00:58.882Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -123,6 +123,10 @@
     {
       "date": "2026-10-13",
       "subscriberCount": 615
+    },
+    {
+      "date": "2026-10-14",
+      "subscriberCount": 616
     }
   ],
   "videos": [
@@ -131,7 +135,7 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 693,
+      "views": 696,
       "likes": 33,
       "comments": 10,
       "durationSeconds": 435
@@ -151,7 +155,7 @@
       "title": "Deus Ex and the Templar Cathedral Conspiracy",
       "publishedAt": "2026-03-29T17:32:15Z",
       "thumbnail": "thumbs/pVz2AR44xKQ.jpg",
-      "views": 284,
+      "views": 285,
       "likes": 21,
       "comments": 10,
       "durationSeconds": 355
@@ -211,7 +215,7 @@
       "title": "Deus Ex is a Megaten game basically",
       "publishedAt": "2026-03-10T18:36:58Z",
       "thumbnail": "thumbs/hzFO30L1Txs.jpg",
-      "views": 455,
+      "views": 456,
       "likes": 20,
       "comments": 8,
       "durationSeconds": 969
@@ -221,7 +225,7 @@
       "title": "Deus Ex matches Paradise Lost really closely",
       "publishedAt": "2026-02-02T17:33:03Z",
       "thumbnail": "thumbs/3kKqzjDePMY.jpg",
-      "views": 724,
+      "views": 725,
       "likes": 40,
       "comments": 7,
       "durationSeconds": 1010
@@ -332,7 +336,7 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 693,
+    "views": 696,
     "likes": 33,
     "comments": 10,
     "durationSeconds": 435
@@ -353,7 +357,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6131,
+      "views": 6143,
       "likes": 274,
       "comments": 28,
       "durationSeconds": 454
@@ -413,7 +417,7 @@
       "title": "My Journey: From Klik & Play to Building A Community of Heroic Game Devs",
       "publishedAt": "2024-10-01T12:15:52Z",
       "thumbnail": "thumbs/mRtdyKInujs.jpg",
-      "views": 2214,
+      "views": 2215,
       "likes": 117,
       "comments": 17,
       "durationSeconds": 417
@@ -433,7 +437,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1899,
+      "views": 1901,
       "likes": 81,
       "comments": 7,
       "durationSeconds": 1079
@@ -533,7 +537,7 @@
       "title": "How to make a \"Physics Engine\" in Clickteam Fusion",
       "publishedAt": "2023-11-03T18:39:11Z",
       "thumbnail": "thumbs/x-EPJREh8O0.jpg",
-      "views": 1321,
+      "views": 1322,
       "likes": 44,
       "comments": 3,
       "durationSeconds": 581
