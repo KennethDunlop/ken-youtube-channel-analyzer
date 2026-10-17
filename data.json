@@ -1,5 +1,5 @@
 {
-  "version": "1.62",
+  "version": "1.63",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 616,
     "videoCount": 878,
-    "channelViews": 129179,
+    "channelViews": 129224,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-16T19:00:26.539Z",
+    "lastUpdated": "2026-10-17T07:00:18.336Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -135,6 +135,10 @@
     {
       "date": "2026-10-16",
       "subscriberCount": 616
+    },
+    {
+      "date": "2026-10-17",
+      "subscriberCount": 616
     }
   ],
   "videos": [
@@ -143,7 +147,7 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 704,
+      "views": 706,
       "likes": 33,
       "comments": 10,
       "durationSeconds": 435
@@ -203,7 +207,7 @@
       "title": "Alastair's dream: A dog with a lion's mane",
       "publishedAt": "2026-03-17T20:55:43Z",
       "thumbnail": "thumbs/xBGkPO3xL24.jpg",
-      "views": 1469,
+      "views": 1470,
       "likes": 10,
       "comments": 1,
       "durationSeconds": 31
@@ -344,7 +348,7 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 704,
+    "views": 706,
     "likes": 33,
     "comments": 10,
     "durationSeconds": 435
@@ -365,7 +369,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6180,
+      "views": 6186,
       "likes": 274,
       "comments": 28,
       "durationSeconds": 454
@@ -395,7 +399,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2589,
+      "views": 2591,
       "likes": 54,
       "comments": 1,
       "durationSeconds": 37
@@ -445,7 +449,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1906,
+      "views": 1907,
       "likes": 81,
       "comments": 7,
       "durationSeconds": 1079
@@ -455,7 +459,7 @@
       "title": "How to make good liquid sloshing sounds for your game",
       "publishedAt": "2022-12-12T21:39:37Z",
       "thumbnail": "thumbs/-Tq-f8VU9Dg.jpg",
-      "views": 1814,
+      "views": 1815,
       "likes": 57,
       "comments": 1,
       "durationSeconds": 19
@@ -505,7 +509,7 @@
       "title": "Alastair's dream: A dog with a lion's mane",
       "publishedAt": "2026-03-17T20:55:43Z",
       "thumbnail": "thumbs/xBGkPO3xL24.jpg",
-      "views": 1469,
+      "views": 1470,
       "likes": 10,
       "comments": 1,
       "durationSeconds": 31
