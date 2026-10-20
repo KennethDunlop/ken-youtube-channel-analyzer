@@ -1,5 +1,5 @@
 {
-  "version": "1.68",
+  "version": "1.69",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
-    "subscriberCount": 616,
+    "subscriberCount": 619,
     "videoCount": 878,
-    "channelViews": 129324,
+    "channelViews": 129350,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-19T19:00:18.248Z",
+    "lastUpdated": "2026-10-20T07:00:18.862Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -147,6 +147,10 @@
     {
       "date": "2026-10-19",
       "subscriberCount": 616
+    },
+    {
+      "date": "2026-10-20",
+      "subscriberCount": 619
     }
   ],
   "videos": [
@@ -155,7 +159,7 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 711,
+      "views": 712,
       "likes": 33,
       "comments": 10,
       "durationSeconds": 435
@@ -175,7 +179,7 @@
       "title": "Deus Ex and the Templar Cathedral Conspiracy",
       "publishedAt": "2026-03-29T17:32:15Z",
       "thumbnail": "thumbs/pVz2AR44xKQ.jpg",
-      "views": 287,
+      "views": 288,
       "likes": 21,
       "comments": 10,
       "durationSeconds": 355
@@ -245,7 +249,7 @@
       "title": "Deus Ex matches Paradise Lost really closely",
       "publishedAt": "2026-02-02T17:33:03Z",
       "thumbnail": "thumbs/3kKqzjDePMY.jpg",
-      "views": 728,
+      "views": 730,
       "likes": 40,
       "comments": 7,
       "durationSeconds": 1010
@@ -265,7 +269,7 @@
       "title": "Super Space Galaxy - V6 Trailer",
       "publishedAt": "2025-09-14T21:16:25Z",
       "thumbnail": "thumbs/8rQOyTl5A-8.jpg",
-      "views": 294,
+      "views": 296,
       "likes": 11,
       "comments": 7,
       "durationSeconds": 59
@@ -356,7 +360,7 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 711,
+    "views": 712,
     "likes": 33,
     "comments": 10,
     "durationSeconds": 435
@@ -377,7 +381,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6227,
+      "views": 6234,
       "likes": 275,
       "comments": 30,
       "durationSeconds": 454
@@ -497,7 +501,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1614,
+      "views": 1616,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
