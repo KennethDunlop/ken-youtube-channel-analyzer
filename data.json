@@ -1,5 +1,5 @@
 {
-  "version": "1.72",
+  "version": "1.73",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 620,
     "videoCount": 878,
-    "channelViews": 129392,
+    "channelViews": 129470,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-21T19:00:18.963Z",
+    "lastUpdated": "2026-10-22T07:00:44.229Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -155,6 +155,10 @@
     {
       "date": "2026-10-21",
       "subscriberCount": 620
+    },
+    {
+      "date": "2026-10-22",
+      "subscriberCount": 620
     }
   ],
   "videos": [
@@ -163,7 +167,7 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 716,
+      "views": 718,
       "likes": 33,
       "comments": 10,
       "durationSeconds": 435
@@ -243,7 +247,7 @@
       "title": "Deus Ex is a Megaten game basically",
       "publishedAt": "2026-03-10T18:36:58Z",
       "thumbnail": "thumbs/hzFO30L1Txs.jpg",
-      "views": 462,
+      "views": 464,
       "likes": 20,
       "comments": 8,
       "durationSeconds": 969
@@ -253,7 +257,7 @@
       "title": "Deus Ex matches Paradise Lost really closely",
       "publishedAt": "2026-02-02T17:33:03Z",
       "thumbnail": "thumbs/3kKqzjDePMY.jpg",
-      "views": 734,
+      "views": 736,
       "likes": 41,
       "comments": 8,
       "durationSeconds": 1010
@@ -364,7 +368,7 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 716,
+    "views": 718,
     "likes": 33,
     "comments": 10,
     "durationSeconds": 435
@@ -385,7 +389,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6250,
+      "views": 6254,
       "likes": 275,
       "comments": 30,
       "durationSeconds": 454
@@ -415,7 +419,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2602,
+      "views": 2603,
       "likes": 54,
       "comments": 1,
       "durationSeconds": 37
@@ -505,7 +509,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1629,
+      "views": 1632,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
@@ -565,7 +569,7 @@
       "title": "How to make a \"Physics Engine\" in Clickteam Fusion",
       "publishedAt": "2023-11-03T18:39:11Z",
       "thumbnail": "thumbs/x-EPJREh8O0.jpg",
-      "views": 1333,
+      "views": 1334,
       "likes": 44,
       "comments": 3,
       "durationSeconds": 581
