@@ -1,5 +1,5 @@
 {
-  "version": "1.74",
+  "version": "1.75",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 620,
     "videoCount": 878,
-    "channelViews": 129481,
+    "channelViews": 129506,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-22T19:00:27.516Z",
+    "lastUpdated": "2026-10-23T07:00:19.951Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -159,6 +159,10 @@
     {
       "date": "2026-10-22",
       "subscriberCount": 620
+    },
+    {
+      "date": "2026-10-23",
+      "subscriberCount": 620
     }
   ],
   "videos": [
@@ -257,9 +261,9 @@
       "title": "Deus Ex matches Paradise Lost really closely",
       "publishedAt": "2026-02-02T17:33:03Z",
       "thumbnail": "thumbs/3kKqzjDePMY.jpg",
-      "views": 738,
+      "views": 740,
       "likes": 41,
-      "comments": 9,
+      "comments": 10,
       "durationSeconds": 1010
     },
     {
@@ -287,7 +291,7 @@
       "title": "Deus Ex is still the best game ever made",
       "publishedAt": "2025-08-20T19:54:17Z",
       "thumbnail": "thumbs/sSDgmkQy6Ok.jpg",
-      "views": 367,
+      "views": 368,
       "likes": 29,
       "comments": 7,
       "durationSeconds": 1225
@@ -389,7 +393,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6256,
+      "views": 6264,
       "likes": 276,
       "comments": 30,
       "durationSeconds": 454
@@ -469,7 +473,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1913,
+      "views": 1915,
       "likes": 81,
       "comments": 7,
       "durationSeconds": 1079
@@ -479,7 +483,7 @@
       "title": "How to make good liquid sloshing sounds for your game",
       "publishedAt": "2022-12-12T21:39:37Z",
       "thumbnail": "thumbs/-Tq-f8VU9Dg.jpg",
-      "views": 1822,
+      "views": 1823,
       "likes": 57,
       "comments": 1,
       "durationSeconds": 19
@@ -509,7 +513,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1635,
+      "views": 1636,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
@@ -569,7 +573,7 @@
       "title": "How to make a \"Physics Engine\" in Clickteam Fusion",
       "publishedAt": "2023-11-03T18:39:11Z",
       "thumbnail": "thumbs/x-EPJREh8O0.jpg",
-      "views": 1334,
+      "views": 1335,
       "likes": 44,
       "comments": 3,
       "durationSeconds": 581
