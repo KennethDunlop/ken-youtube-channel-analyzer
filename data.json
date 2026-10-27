@@ -1,5 +1,5 @@
 {
-  "version": "1.83",
+  "version": "1.84",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -11,7 +11,7 @@
     "videoCount": 878,
     "channelViews": 129645,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-27T07:00:24.824Z",
+    "lastUpdated": "2026-10-27T19:00:21.133Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -187,7 +187,7 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 725,
+      "views": 727,
       "likes": 33,
       "comments": 10,
       "durationSeconds": 435
@@ -247,7 +247,7 @@
       "title": "Alastair's dream: A dog with a lion's mane",
       "publishedAt": "2026-03-17T20:55:43Z",
       "thumbnail": "thumbs/xBGkPO3xL24.jpg",
-      "views": 1470,
+      "views": 1471,
       "likes": 10,
       "comments": 1,
       "durationSeconds": 31
@@ -388,7 +388,7 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 725,
+    "views": 727,
     "likes": 33,
     "comments": 10,
     "durationSeconds": 435
@@ -409,7 +409,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6319,
+      "views": 6321,
       "likes": 276,
       "comments": 30,
       "durationSeconds": 454
@@ -440,7 +440,7 @@
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
       "views": 2609,
-      "likes": 55,
+      "likes": 54,
       "comments": 1,
       "durationSeconds": 37
     },
@@ -489,7 +489,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1921,
+      "views": 1923,
       "likes": 82,
       "comments": 7,
       "durationSeconds": 1079
@@ -519,7 +519,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1643,
+      "views": 1644,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
@@ -549,7 +549,7 @@
       "title": "Alastair's dream: A dog with a lion's mane",
       "publishedAt": "2026-03-17T20:55:43Z",
       "thumbnail": "thumbs/xBGkPO3xL24.jpg",
-      "views": 1470,
+      "views": 1471,
       "likes": 10,
       "comments": 1,
       "durationSeconds": 31
@@ -589,7 +589,7 @@
       "title": "How to make a \"Physics Engine\" in Clickteam Fusion",
       "publishedAt": "2023-11-03T18:39:11Z",
       "thumbnail": "thumbs/x-EPJREh8O0.jpg",
-      "views": 1341,
+      "views": 1342,
       "likes": 44,
       "comments": 3,
       "durationSeconds": 581
