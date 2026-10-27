@@ -1,5 +1,5 @@
 {
-  "version": "1.82",
+  "version": "1.83",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 619,
     "videoCount": 878,
-    "channelViews": 129628,
+    "channelViews": 129645,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-26T19:00:26.654Z",
+    "lastUpdated": "2026-10-27T07:00:24.824Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -174,6 +174,10 @@
     },
     {
       "date": "2026-10-26",
+      "subscriberCount": 619
+    },
+    {
+      "date": "2026-10-27",
       "subscriberCount": 619
     }
   ],
@@ -405,7 +409,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6314,
+      "views": 6319,
       "likes": 276,
       "comments": 30,
       "durationSeconds": 454
@@ -435,7 +439,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2608,
+      "views": 2609,
       "likes": 55,
       "comments": 1,
       "durationSeconds": 37
@@ -465,7 +469,7 @@
       "title": "My Journey: From Klik & Play to Building A Community of Heroic Game Devs",
       "publishedAt": "2024-10-01T12:15:52Z",
       "thumbnail": "thumbs/mRtdyKInujs.jpg",
-      "views": 2219,
+      "views": 2220,
       "likes": 117,
       "comments": 17,
       "durationSeconds": 417
@@ -485,7 +489,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1920,
+      "views": 1921,
       "likes": 82,
       "comments": 7,
       "durationSeconds": 1079
@@ -495,7 +499,7 @@
       "title": "How to make good liquid sloshing sounds for your game",
       "publishedAt": "2022-12-12T21:39:37Z",
       "thumbnail": "thumbs/-Tq-f8VU9Dg.jpg",
-      "views": 1824,
+      "views": 1825,
       "likes": 57,
       "comments": 1,
       "durationSeconds": 19
