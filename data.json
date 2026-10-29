@@ -1,5 +1,5 @@
 {
-  "version": "1.86",
+  "version": "1.87",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 619,
     "videoCount": 878,
-    "channelViews": 129669,
+    "channelViews": 129696,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-28T19:00:21.164Z",
+    "lastUpdated": "2026-10-29T07:01:06.188Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -183,6 +183,10 @@
     {
       "date": "2026-10-28",
       "subscriberCount": 619
+    },
+    {
+      "date": "2026-10-29",
+      "subscriberCount": 619
     }
   ],
   "videos": [
@@ -191,7 +195,7 @@
       "title": "The Most Powerful Prisoner in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 728,
+      "views": 729,
       "likes": 33,
       "comments": 10,
       "durationSeconds": 435
@@ -281,7 +285,7 @@
       "title": "Deus Ex matches Paradise Lost really closely",
       "publishedAt": "2026-02-02T17:33:03Z",
       "thumbnail": "thumbs/3kKqzjDePMY.jpg",
-      "views": 743,
+      "views": 744,
       "likes": 41,
       "comments": 10,
       "durationSeconds": 1010
@@ -392,7 +396,7 @@
     "title": "The Most Powerful Prisoner in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 728,
+    "views": 729,
     "likes": 33,
     "comments": 10,
     "durationSeconds": 435
@@ -413,7 +417,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6324,
+      "views": 6326,
       "likes": 276,
       "comments": 30,
       "durationSeconds": 454
@@ -443,7 +447,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2610,
+      "views": 2611,
       "likes": 54,
       "comments": 1,
       "durationSeconds": 37
@@ -523,7 +527,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1647,
+      "views": 1648,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
