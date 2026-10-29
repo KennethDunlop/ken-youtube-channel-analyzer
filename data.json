@@ -1,5 +1,5 @@
 {
-  "version": "1.87",
+  "version": "1.88",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 619,
     "videoCount": 878,
-    "channelViews": 129696,
+    "channelViews": 129703,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-10-29T07:01:06.188Z",
+    "lastUpdated": "2026-10-29T19:01:00.951Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -192,7 +192,7 @@
   "videos": [
     {
       "id": "SgGS77ACKbc",
-      "title": "The Most Powerful Prisoner in Deus Ex",
+      "title": "The Loneliest Man in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
       "views": 729,
@@ -285,7 +285,7 @@
       "title": "Deus Ex matches Paradise Lost really closely",
       "publishedAt": "2026-02-02T17:33:03Z",
       "thumbnail": "thumbs/3kKqzjDePMY.jpg",
-      "views": 744,
+      "views": 745,
       "likes": 41,
       "comments": 10,
       "durationSeconds": 1010
@@ -307,7 +307,7 @@
       "thumbnail": "thumbs/8rQOyTl5A-8.jpg",
       "views": 297,
       "likes": 11,
-      "comments": 7,
+      "comments": 3,
       "durationSeconds": 59
     },
     {
@@ -393,7 +393,7 @@
   ],
   "longform": {
     "id": "SgGS77ACKbc",
-    "title": "The Most Powerful Prisoner in Deus Ex",
+    "title": "The Loneliest Man in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
     "views": 729,
@@ -417,7 +417,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6326,
+      "views": 6329,
       "likes": 276,
       "comments": 30,
       "durationSeconds": 454
@@ -513,6 +513,16 @@
       "durationSeconds": 19
     },
     {
+      "id": "UL_vrjVz1co",
+      "title": "How my planets are better than Star Control II's",
+      "publishedAt": "2023-08-16T19:26:19Z",
+      "thumbnail": "thumbs/UL_vrjVz1co.jpg",
+      "views": 1652,
+      "likes": 27,
+      "comments": 2,
+      "durationSeconds": 22
+    },
+    {
       "id": "3w82WfeArDo",
       "title": "Forests and lakes",
       "publishedAt": "2023-02-23T19:38:04Z",
@@ -521,16 +531,6 @@
       "likes": 26,
       "comments": 3,
       "durationSeconds": 7
-    },
-    {
-      "id": "UL_vrjVz1co",
-      "title": "How my planets are better than Star Control II's",
-      "publishedAt": "2023-08-16T19:26:19Z",
-      "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1648,
-      "likes": 27,
-      "comments": 2,
-      "durationSeconds": 22
     },
     {
       "id": "j7DP4jemB2Q",
