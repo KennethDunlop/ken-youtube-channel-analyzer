@@ -1,5 +1,5 @@
 {
-  "version": "1.95",
+  "version": "1.96",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 619,
     "videoCount": 878,
-    "channelViews": 129833,
+    "channelViews": 129862,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-11-02T07:01:06.218Z",
+    "lastUpdated": "2026-11-02T19:01:07.942Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -231,7 +231,7 @@
       "title": "Deus Ex and the Templar Cathedral Conspiracy",
       "publishedAt": "2026-03-29T17:32:15Z",
       "thumbnail": "thumbs/pVz2AR44xKQ.jpg",
-      "views": 290,
+      "views": 291,
       "likes": 21,
       "comments": 10,
       "durationSeconds": 355
@@ -433,7 +433,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6383,
+      "views": 6389,
       "likes": 277,
       "comments": 31,
       "durationSeconds": 454
@@ -463,7 +463,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2618,
+      "views": 2619,
       "likes": 54,
       "comments": 1,
       "durationSeconds": 37
@@ -493,8 +493,8 @@
       "title": "My Journey: From Klik & Play to Building A Community of Heroic Game Devs",
       "publishedAt": "2024-10-01T12:15:52Z",
       "thumbnail": "thumbs/mRtdyKInujs.jpg",
-      "views": 2224,
-      "likes": 117,
+      "views": 2227,
+      "likes": 118,
       "comments": 17,
       "durationSeconds": 417
     },
@@ -613,7 +613,7 @@
       "title": "How to make a \"Physics Engine\" in Clickteam Fusion",
       "publishedAt": "2023-11-03T18:39:11Z",
       "thumbnail": "thumbs/x-EPJREh8O0.jpg",
-      "views": 1358,
+      "views": 1362,
       "likes": 44,
       "comments": 3,
       "durationSeconds": 581
