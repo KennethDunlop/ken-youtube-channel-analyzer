@@ -1,5 +1,5 @@
 {
-  "version": "1.98",
+  "version": "1.99",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
-    "subscriberCount": 619,
+    "subscriberCount": 618,
     "videoCount": 878,
-    "channelViews": 129897,
+    "channelViews": 129915,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-11-03T19:01:07.585Z",
+    "lastUpdated": "2026-11-04T07:01:05.200Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -207,6 +207,10 @@
     {
       "date": "2026-11-03",
       "subscriberCount": 619
+    },
+    {
+      "date": "2026-11-04",
+      "subscriberCount": 618
     }
   ],
   "videos": [
@@ -437,7 +441,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6405,
+      "views": 6409,
       "likes": 277,
       "comments": 31,
       "durationSeconds": 454
@@ -467,8 +471,8 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2621,
-      "likes": 54,
+      "views": 2625,
+      "likes": 55,
       "comments": 1,
       "durationSeconds": 37
     },
