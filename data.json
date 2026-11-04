@@ -1,5 +1,5 @@
 {
-  "version": "1.99",
+  "version": "1.100",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 618,
     "videoCount": 878,
-    "channelViews": 129915,
+    "channelViews": 129921,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-11-04T07:01:05.200Z",
+    "lastUpdated": "2026-11-04T19:01:07.844Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -441,9 +441,9 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6409,
+      "views": 6411,
       "likes": 277,
-      "comments": 31,
+      "comments": 32,
       "durationSeconds": 454
     },
     {
@@ -471,7 +471,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2625,
+      "views": 2626,
       "likes": 55,
       "comments": 1,
       "durationSeconds": 37
@@ -501,7 +501,7 @@
       "title": "My Journey: From Klik & Play to Building A Community of Heroic Game Devs",
       "publishedAt": "2024-10-01T12:15:52Z",
       "thumbnail": "thumbs/mRtdyKInujs.jpg",
-      "views": 2228,
+      "views": 2229,
       "likes": 118,
       "comments": 17,
       "durationSeconds": 417
@@ -541,7 +541,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1657,
+      "views": 1658,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
