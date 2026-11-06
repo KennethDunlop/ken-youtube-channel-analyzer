@@ -1,5 +1,5 @@
 {
-  "version": "1.102",
+  "version": "1.103",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
-    "subscriberCount": 618,
+    "subscriberCount": 619,
     "videoCount": 878,
-    "channelViews": 129943,
+    "channelViews": 129974,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-11-05T19:00:39.401Z",
+    "lastUpdated": "2026-11-06T07:00:35.489Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -215,6 +215,10 @@
     {
       "date": "2026-11-05",
       "subscriberCount": 618
+    },
+    {
+      "date": "2026-11-06",
+      "subscriberCount": 619
     }
   ],
   "videos": [
@@ -223,7 +227,7 @@
       "title": "The Loneliest Man in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 739,
+      "views": 741,
       "likes": 34,
       "comments": 10,
       "durationSeconds": 435
@@ -333,7 +337,7 @@
       "title": "Super Space Galaxy - V6 Trailer",
       "publishedAt": "2025-09-14T21:16:25Z",
       "thumbnail": "thumbs/8rQOyTl5A-8.jpg",
-      "views": 299,
+      "views": 301,
       "likes": 12,
       "comments": 3,
       "durationSeconds": 59
@@ -424,7 +428,7 @@
     "title": "The Loneliest Man in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 739,
+    "views": 741,
     "likes": 34,
     "comments": 10,
     "durationSeconds": 435
@@ -445,7 +449,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6423,
+      "views": 6439,
       "likes": 277,
       "comments": 32,
       "durationSeconds": 454
@@ -475,8 +479,8 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2627,
-      "likes": 55,
+      "views": 2633,
+      "likes": 56,
       "comments": 1,
       "durationSeconds": 37
     },
@@ -505,8 +509,8 @@
       "title": "My Journey: From Klik & Play to Building A Community of Heroic Game Devs",
       "publishedAt": "2024-10-01T12:15:52Z",
       "thumbnail": "thumbs/mRtdyKInujs.jpg",
-      "views": 2229,
-      "likes": 118,
+      "views": 2231,
+      "likes": 119,
       "comments": 17,
       "durationSeconds": 417
     },
@@ -625,7 +629,7 @@
       "title": "How to make a \"Physics Engine\" in Clickteam Fusion",
       "publishedAt": "2023-11-03T18:39:11Z",
       "thumbnail": "thumbs/x-EPJREh8O0.jpg",
-      "views": 1365,
+      "views": 1366,
       "likes": 44,
       "comments": 3,
       "durationSeconds": 581
