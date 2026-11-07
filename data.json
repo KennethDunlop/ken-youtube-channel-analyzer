@@ -1,5 +1,5 @@
 {
-  "version": "1.104",
+  "version": "1.105",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 619,
     "videoCount": 878,
-    "channelViews": 129996,
+    "channelViews": 130012,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-11-06T19:00:22.786Z",
+    "lastUpdated": "2026-11-07T07:00:23.509Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -219,6 +219,10 @@
     {
       "date": "2026-11-06",
       "subscriberCount": 619
+    },
+    {
+      "date": "2026-11-07",
+      "subscriberCount": 619
     }
   ],
   "videos": [
@@ -227,7 +231,7 @@
       "title": "The Loneliest Man in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 741,
+      "views": 745,
       "likes": 34,
       "comments": 10,
       "durationSeconds": 435
@@ -428,7 +432,7 @@
     "title": "The Loneliest Man in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 741,
+    "views": 745,
     "likes": 34,
     "comments": 10,
     "durationSeconds": 435
@@ -449,7 +453,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6446,
+      "views": 6447,
       "likes": 277,
       "comments": 32,
       "durationSeconds": 454
@@ -479,7 +483,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2634,
+      "views": 2635,
       "likes": 56,
       "comments": 1,
       "durationSeconds": 37
@@ -509,7 +513,7 @@
       "title": "My Journey: From Klik & Play to Building A Community of Heroic Game Devs",
       "publishedAt": "2024-10-01T12:15:52Z",
       "thumbnail": "thumbs/mRtdyKInujs.jpg",
-      "views": 2231,
+      "views": 2232,
       "likes": 119,
       "comments": 17,
       "durationSeconds": 417
@@ -529,7 +533,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1930,
+      "views": 1931,
       "likes": 83,
       "comments": 7,
       "durationSeconds": 1079
@@ -539,7 +543,7 @@
       "title": "How to make good liquid sloshing sounds for your game",
       "publishedAt": "2022-12-12T21:39:37Z",
       "thumbnail": "thumbs/-Tq-f8VU9Dg.jpg",
-      "views": 1831,
+      "views": 1832,
       "likes": 57,
       "comments": 1,
       "durationSeconds": 19
