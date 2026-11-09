@@ -1,5 +1,5 @@
 {
-  "version": "1.108",
+  "version": "1.109",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 619,
     "videoCount": 878,
-    "channelViews": 130042,
+    "channelViews": 130058,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-11-08T19:00:21.690Z",
+    "lastUpdated": "2026-11-09T07:00:59.023Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -227,6 +227,10 @@
     {
       "date": "2026-11-08",
       "subscriberCount": 619
+    },
+    {
+      "date": "2026-11-09",
+      "subscriberCount": 619
     }
   ],
   "videos": [
@@ -235,7 +239,7 @@
       "title": "The Loneliest Man in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 745,
+      "views": 747,
       "likes": 34,
       "comments": 10,
       "durationSeconds": 435
@@ -255,7 +259,7 @@
       "title": "Deus Ex and the Templar Cathedral Conspiracy",
       "publishedAt": "2026-03-29T17:32:15Z",
       "thumbnail": "thumbs/pVz2AR44xKQ.jpg",
-      "views": 291,
+      "views": 292,
       "likes": 21,
       "comments": 10,
       "durationSeconds": 355
@@ -355,7 +359,7 @@
       "title": "Deus Ex is still the best game ever made",
       "publishedAt": "2025-08-20T19:54:17Z",
       "thumbnail": "thumbs/sSDgmkQy6Ok.jpg",
-      "views": 371,
+      "views": 372,
       "likes": 29,
       "comments": 7,
       "durationSeconds": 1225
@@ -436,7 +440,7 @@
     "title": "The Loneliest Man in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 745,
+    "views": 747,
     "likes": 34,
     "comments": 10,
     "durationSeconds": 435
@@ -457,7 +461,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6458,
+      "views": 6464,
       "likes": 277,
       "comments": 32,
       "durationSeconds": 454
@@ -487,7 +491,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2638,
+      "views": 2643,
       "likes": 56,
       "comments": 1,
       "durationSeconds": 37
@@ -537,7 +541,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1932,
+      "views": 1934,
       "likes": 83,
       "comments": 7,
       "durationSeconds": 1079
@@ -557,7 +561,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1660,
+      "views": 1661,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
