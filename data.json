@@ -1,5 +1,5 @@
 {
-  "version": "1.112",
+  "version": "1.113",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 619,
     "videoCount": 878,
-    "channelViews": 130086,
+    "channelViews": 130103,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-11-10T19:01:02.823Z",
+    "lastUpdated": "2026-11-11T07:01:00.100Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -234,6 +234,10 @@
     },
     {
       "date": "2026-11-10",
+      "subscriberCount": 619
+    },
+    {
+      "date": "2026-11-11",
       "subscriberCount": 619
     }
   ],
@@ -465,7 +469,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6477,
+      "views": 6478,
       "likes": 277,
       "comments": 32,
       "durationSeconds": 454
@@ -495,7 +499,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2644,
+      "views": 2645,
       "likes": 56,
       "comments": 1,
       "durationSeconds": 37
@@ -545,7 +549,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1934,
+      "views": 1935,
       "likes": 83,
       "comments": 7,
       "durationSeconds": 1079
@@ -555,7 +559,7 @@
       "title": "How to make good liquid sloshing sounds for your game",
       "publishedAt": "2022-12-12T21:39:37Z",
       "thumbnail": "thumbs/-Tq-f8VU9Dg.jpg",
-      "views": 1832,
+      "views": 1833,
       "likes": 57,
       "comments": 1,
       "durationSeconds": 19
