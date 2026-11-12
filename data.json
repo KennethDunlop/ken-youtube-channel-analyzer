@@ -1,5 +1,5 @@
 {
-  "version": "1.115",
+  "version": "1.116",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 619,
     "videoCount": 878,
-    "channelViews": 130127,
+    "channelViews": 130149,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-11-12T07:00:28.478Z",
+    "lastUpdated": "2026-11-12T19:00:30.753Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -473,7 +473,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6496,
+      "views": 6500,
       "likes": 277,
       "comments": 32,
       "durationSeconds": 454
@@ -553,7 +553,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1939,
+      "views": 1940,
       "likes": 83,
       "comments": 7,
       "durationSeconds": 1079
