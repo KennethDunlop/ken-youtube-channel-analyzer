@@ -1,5 +1,5 @@
 {
-  "version": "1.114",
+  "version": "1.115",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 619,
     "videoCount": 878,
-    "channelViews": 130103,
+    "channelViews": 130127,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-11-11T19:00:32.604Z",
+    "lastUpdated": "2026-11-12T07:00:28.478Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -239,6 +239,10 @@
     {
       "date": "2026-11-11",
       "subscriberCount": 619
+    },
+    {
+      "date": "2026-11-12",
+      "subscriberCount": 619
     }
   ],
   "videos": [
@@ -387,7 +391,7 @@
       "title": "Imposter Syndrome",
       "publishedAt": "2025-03-21T23:52:03Z",
       "thumbnail": "thumbs/Gn_7ldxSmIg.jpg",
-      "views": 190,
+      "views": 191,
       "likes": 15,
       "comments": 1,
       "durationSeconds": 433
@@ -469,7 +473,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6480,
+      "views": 6496,
       "likes": 277,
       "comments": 32,
       "durationSeconds": 454
@@ -499,7 +503,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2645,
+      "views": 2648,
       "likes": 56,
       "comments": 1,
       "durationSeconds": 37
@@ -549,7 +553,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1935,
+      "views": 1939,
       "likes": 83,
       "comments": 7,
       "durationSeconds": 1079
@@ -569,7 +573,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1662,
+      "views": 1665,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
