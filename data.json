@@ -1,5 +1,5 @@
 {
-  "version": "1.117",
+  "version": "1.118",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 619,
     "videoCount": 878,
-    "channelViews": 130149,
+    "channelViews": 130180,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-11-13T07:00:29.245Z",
+    "lastUpdated": "2026-11-13T19:00:28.294Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -255,7 +255,7 @@
       "title": "The Loneliest Man in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 748,
+      "views": 749,
       "likes": 34,
       "comments": 10,
       "durationSeconds": 435
@@ -285,7 +285,7 @@
       "title": "Why did Macaulay Culkin appear in my dream?",
       "publishedAt": "2026-03-26T22:45:56Z",
       "thumbnail": "thumbs/Pc-alFpdI9o.jpg",
-      "views": 46,
+      "views": 47,
       "likes": 0,
       "comments": 1,
       "durationSeconds": 13
@@ -456,7 +456,7 @@
     "title": "The Loneliest Man in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 748,
+    "views": 749,
     "likes": 34,
     "comments": 10,
     "durationSeconds": 435
@@ -477,7 +477,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6507,
+      "views": 6510,
       "likes": 277,
       "comments": 32,
       "durationSeconds": 454
@@ -507,7 +507,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2650,
+      "views": 2652,
       "likes": 56,
       "comments": 1,
       "durationSeconds": 37
@@ -577,7 +577,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1665,
+      "views": 1666,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
