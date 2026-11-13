@@ -1,5 +1,5 @@
 {
-  "version": "1.116",
+  "version": "1.117",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -11,7 +11,7 @@
     "videoCount": 878,
     "channelViews": 130149,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-11-12T19:00:30.753Z",
+    "lastUpdated": "2026-11-13T07:00:29.245Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -243,6 +243,10 @@
     {
       "date": "2026-11-12",
       "subscriberCount": 619
+    },
+    {
+      "date": "2026-11-13",
+      "subscriberCount": 619
     }
   ],
   "videos": [
@@ -251,7 +255,7 @@
       "title": "The Loneliest Man in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 747,
+      "views": 748,
       "likes": 34,
       "comments": 10,
       "durationSeconds": 435
@@ -341,7 +345,7 @@
       "title": "Deus Ex matches Paradise Lost really closely",
       "publishedAt": "2026-02-02T17:33:03Z",
       "thumbnail": "thumbs/3kKqzjDePMY.jpg",
-      "views": 747,
+      "views": 748,
       "likes": 41,
       "comments": 10,
       "durationSeconds": 1010
@@ -452,7 +456,7 @@
     "title": "The Loneliest Man in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 747,
+    "views": 748,
     "likes": 34,
     "comments": 10,
     "durationSeconds": 435
@@ -473,7 +477,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6500,
+      "views": 6507,
       "likes": 277,
       "comments": 32,
       "durationSeconds": 454
@@ -503,7 +507,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2648,
+      "views": 2650,
       "likes": 56,
       "comments": 1,
       "durationSeconds": 37
