@@ -1,5 +1,5 @@
 {
-  "version": "1.130",
+  "version": "1.131",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 618,
     "videoCount": 878,
-    "channelViews": 130378,
+    "channelViews": 130405,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-11-19T19:00:47.092Z",
+    "lastUpdated": "2026-11-20T07:00:45.779Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -271,6 +271,10 @@
     {
       "date": "2026-11-19",
       "subscriberCount": 618
+    },
+    {
+      "date": "2026-11-20",
+      "subscriberCount": 618
     }
   ],
   "videos": [
@@ -501,7 +505,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6594,
+      "views": 6604,
       "likes": 278,
       "comments": 32,
       "durationSeconds": 454
@@ -521,7 +525,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2674,
+      "views": 2675,
       "likes": 56,
       "comments": 1,
       "durationSeconds": 37
@@ -581,7 +585,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1952,
+      "views": 1953,
       "likes": 84,
       "comments": 7,
       "durationSeconds": 1079
@@ -601,7 +605,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1689,
+      "views": 1690,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
@@ -661,7 +665,7 @@
       "title": "How to make a \"Physics Engine\" in Clickteam Fusion",
       "publishedAt": "2023-11-03T18:39:11Z",
       "thumbnail": "thumbs/x-EPJREh8O0.jpg",
-      "views": 1380,
+      "views": 1382,
       "likes": 44,
       "comments": 3,
       "durationSeconds": 581
