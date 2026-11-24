@@ -1,5 +1,5 @@
 {
-  "version": "1.138",
+  "version": "1.139",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 618,
     "videoCount": 878,
-    "channelViews": 130517,
+    "channelViews": 130541,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-11-23T19:00:27.788Z",
+    "lastUpdated": "2026-11-24T07:00:24.980Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -287,6 +287,10 @@
     {
       "date": "2026-11-23",
       "subscriberCount": 618
+    },
+    {
+      "date": "2026-11-24",
+      "subscriberCount": 618
     }
   ],
   "videos": [
@@ -295,7 +299,7 @@
       "title": "The Loneliest Man in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 751,
+      "views": 752,
       "likes": 34,
       "comments": 10,
       "durationSeconds": 435
@@ -385,7 +389,7 @@
       "title": "Deus Ex matches Paradise Lost really closely",
       "publishedAt": "2026-02-02T17:33:03Z",
       "thumbnail": "thumbs/3kKqzjDePMY.jpg",
-      "views": 749,
+      "views": 750,
       "likes": 41,
       "comments": 10,
       "durationSeconds": 1010
@@ -496,7 +500,7 @@
     "title": "The Loneliest Man in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 751,
+    "views": 752,
     "likes": 34,
     "comments": 10,
     "durationSeconds": 435
@@ -517,7 +521,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6658,
+      "views": 6661,
       "likes": 278,
       "comments": 32,
       "durationSeconds": 454
@@ -597,7 +601,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1958,
+      "views": 1959,
       "likes": 84,
       "comments": 7,
       "durationSeconds": 1079
@@ -617,7 +621,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1697,
+      "views": 1699,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
