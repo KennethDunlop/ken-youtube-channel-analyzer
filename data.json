@@ -1,5 +1,5 @@
 {
-  "version": "1.140",
+  "version": "1.141",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 618,
     "videoCount": 878,
-    "channelViews": 130553,
+    "channelViews": 130567,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-11-24T19:00:26.385Z",
+    "lastUpdated": "2026-11-25T07:00:30.980Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -291,6 +291,10 @@
     {
       "date": "2026-11-24",
       "subscriberCount": 618
+    },
+    {
+      "date": "2026-11-25",
+      "subscriberCount": 618
     }
   ],
   "videos": [
@@ -521,7 +525,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6665,
+      "views": 6670,
       "likes": 278,
       "comments": 32,
       "durationSeconds": 454
@@ -541,7 +545,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2688,
+      "views": 2690,
       "likes": 56,
       "comments": 1,
       "durationSeconds": 37
@@ -601,7 +605,7 @@
       "title": "How to use arrays in Clickteam Fusion",
       "publishedAt": "2024-07-12T18:18:36Z",
       "thumbnail": "thumbs/92XQpcZQ6N8.jpg",
-      "views": 1959,
+      "views": 1961,
       "likes": 84,
       "comments": 7,
       "durationSeconds": 1079
@@ -621,7 +625,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1701,
+      "views": 1704,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
