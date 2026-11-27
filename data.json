@@ -1,5 +1,5 @@
 {
-  "version": "1.144",
+  "version": "1.145",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 617,
     "videoCount": 878,
-    "channelViews": 130590,
+    "channelViews": 130609,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-11-26T19:00:41.530Z",
+    "lastUpdated": "2026-11-27T07:01:03.809Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -299,6 +299,10 @@
     {
       "date": "2026-11-26",
       "subscriberCount": 617
+    },
+    {
+      "date": "2026-11-27",
+      "subscriberCount": 617
     }
   ],
   "videos": [
@@ -307,7 +311,7 @@
       "title": "The Loneliest Man in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 752,
+      "views": 753,
       "likes": 34,
       "comments": 10,
       "durationSeconds": 435
@@ -327,7 +331,7 @@
       "title": "Deus Ex and the Templar Cathedral Conspiracy",
       "publishedAt": "2026-03-29T17:32:15Z",
       "thumbnail": "thumbs/pVz2AR44xKQ.jpg",
-      "views": 293,
+      "views": 295,
       "likes": 21,
       "comments": 10,
       "durationSeconds": 355
@@ -508,7 +512,7 @@
     "title": "The Loneliest Man in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 752,
+    "views": 753,
     "likes": 34,
     "comments": 10,
     "durationSeconds": 435
@@ -529,8 +533,8 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6682,
-      "likes": 278,
+      "views": 6688,
+      "likes": 279,
       "comments": 32,
       "durationSeconds": 454
     },
@@ -549,7 +553,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2691,
+      "views": 2692,
       "likes": 56,
       "comments": 1,
       "durationSeconds": 37
