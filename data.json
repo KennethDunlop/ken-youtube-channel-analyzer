@@ -1,5 +1,5 @@
 {
-  "version": "1.146",
+  "version": "1.147",
   "meta": {
     "channelTitle": "Plasma Beam Games",
     "channelId": "UC5FtVeVkIk2Vx4sQK9T8WPw",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@plasmabeamgames",
     "subscriberCount": 617,
     "videoCount": 878,
-    "channelViews": 130622,
+    "channelViews": 130643,
     "channelCreatedAt": "2014-06-22T09:00:03Z",
-    "lastUpdated": "2026-11-27T19:00:59.853Z",
+    "lastUpdated": "2026-11-28T07:00:58.077Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 1202,
@@ -303,6 +303,10 @@
     {
       "date": "2026-11-27",
       "subscriberCount": 617
+    },
+    {
+      "date": "2026-11-28",
+      "subscriberCount": 617
     }
   ],
   "videos": [
@@ -311,7 +315,7 @@
       "title": "The Loneliest Man in Deus Ex",
       "publishedAt": "2026-09-16T19:32:03Z",
       "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-      "views": 753,
+      "views": 754,
       "likes": 34,
       "comments": 10,
       "durationSeconds": 435
@@ -331,7 +335,7 @@
       "title": "Deus Ex and the Templar Cathedral Conspiracy",
       "publishedAt": "2026-03-29T17:32:15Z",
       "thumbnail": "thumbs/pVz2AR44xKQ.jpg",
-      "views": 295,
+      "views": 296,
       "likes": 21,
       "comments": 10,
       "durationSeconds": 355
@@ -421,7 +425,7 @@
       "title": "Super Space Galaxy - V6 Trailer",
       "publishedAt": "2025-09-14T21:16:25Z",
       "thumbnail": "thumbs/8rQOyTl5A-8.jpg",
-      "views": 306,
+      "views": 307,
       "likes": 12,
       "comments": 3,
       "durationSeconds": 59
@@ -512,7 +516,7 @@
     "title": "The Loneliest Man in Deus Ex",
     "publishedAt": "2026-09-16T19:32:03Z",
     "thumbnail": "thumbs/SgGS77ACKbc.jpg",
-    "views": 753,
+    "views": 754,
     "likes": 34,
     "comments": 10,
     "durationSeconds": 435
@@ -533,7 +537,7 @@
       "title": "5 things I wish I knew as an indie dev starting with Clickteam Fusion 2.5",
       "publishedAt": "2024-11-29T21:35:53Z",
       "thumbnail": "thumbs/JwJ7a_gOCvc.jpg",
-      "views": 6693,
+      "views": 6697,
       "likes": 279,
       "comments": 32,
       "durationSeconds": 454
@@ -553,7 +557,7 @@
       "title": "How Leon made his Clickteam Fusion level-design tool",
       "publishedAt": "2025-03-03T12:14:38Z",
       "thumbnail": "thumbs/-7dRWTnj1do.jpg",
-      "views": 2694,
+      "views": 2695,
       "likes": 56,
       "comments": 1,
       "durationSeconds": 37
@@ -593,7 +597,7 @@
       "title": "My Journey: From Klik & Play to Building A Community of Heroic Game Devs",
       "publishedAt": "2024-10-01T12:15:52Z",
       "thumbnail": "thumbs/mRtdyKInujs.jpg",
-      "views": 2239,
+      "views": 2240,
       "likes": 119,
       "comments": 17,
       "durationSeconds": 417
@@ -623,7 +627,7 @@
       "title": "How to make good liquid sloshing sounds for your game",
       "publishedAt": "2022-12-12T21:39:37Z",
       "thumbnail": "thumbs/-Tq-f8VU9Dg.jpg",
-      "views": 1840,
+      "views": 1844,
       "likes": 57,
       "comments": 1,
       "durationSeconds": 19
@@ -633,7 +637,7 @@
       "title": "How my planets are better than Star Control II's",
       "publishedAt": "2023-08-16T19:26:19Z",
       "thumbnail": "thumbs/UL_vrjVz1co.jpg",
-      "views": 1706,
+      "views": 1711,
       "likes": 27,
       "comments": 2,
       "durationSeconds": 22
